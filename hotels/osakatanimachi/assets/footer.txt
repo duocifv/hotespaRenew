@@ -1,0 +1,249 @@
+<!-- Content Common 01 -->
+<div class="contentCmn01">
+    <div class="container">
+        <div>
+            <h2 class="contentCmn01_ttl txt-center">もっと詳しく当ホテルの情報を見る</h2>
+        </div>
+        <!-- /Content Common 01 Title -->
+        <div class="contentCmn01_items group">
+            <div class="contentCmn01_item col-3 col-2-sp">
+                <div class="contentCmn01_item_inner">
+                    <p><a href="/hotels/osakatanimachi/spa/"><img src="/hotels/osakatanimachi/image/img_index_07.jpg" alt="" class="w100"></a></p>
+                    <div>
+                        <h3 class="contentCmn01_item_ttl txt-center"><a href="/hotels/osakatanimachi/spa/">大浴場について</a></h3></div>
+                </div>
+            </div>
+            <div class="contentCmn01_item col-3 col-2-sp">
+                <div class="contentCmn01_item_inner">
+                    <p><a href="/hotels/osakatanimachi/hotel/"><img src="/hotels/osakatanimachi/image/img_index_08.jpg" alt="" class="w100"></a></p>
+                    <div>
+                        <h3 class="contentCmn01_item_ttl txt-center"><a href="/hotels/osakatanimachi/hotel/">施設のフロア情報</a></h3></div>
+                </div>
+            </div>
+            <div class="contentCmn01_item col-3 col-2-sp">
+                <div class="contentCmn01_item_inner">
+                    <p><a href="/hotels/osakatanimachi/room/"><img src="/hotels/osakatanimachi/image/img_index_09.jpg" alt="" class="w100"></a></p>
+                    <div>
+                        <h3 class="contentCmn01_item_ttl txt-center"><a href="/hotels/osakatanimachi/room/">客室について</a></h3></div>
+                </div>
+            </div>
+            <div class="group disp-pc"></div>
+            <div class="contentCmn01_item col-3 col-2-sp">
+                <div class="contentCmn01_item_inner">
+                    <p><a href="/hotels/osakatanimachi/access/"><img src="/hotels/osakatanimachi/image/img_index_10.jpg" alt="" class="w100"></a></p>
+                    <div>
+                        <h3 class="contentCmn01_item_ttl txt-center"><a href="/hotels/osakatanimachi/access/">ホテルへのアクセス</a></h3></div>
+                </div>
+            </div>
+        </div>
+        <!-- /Content Common 01 Items -->
+    </div>
+</div>
+<!-- // Content Common 01 -->
+<!-- Content Common 02 -->
+<div class="contentCmn02">
+    <div class="container">
+        <div>
+            <h2 style="color: #000" class="contentCmn02_ttl txt-center">施設概要</h2>
+        </div>
+        <!-- /Content Common 02 Title -->
+        <table class="contentCmn02_ctn tbl-type01">
+            <tr>
+                <th>開業年</th>
+                <td>2018年5月</td>
+            </tr>
+            <tr>
+                <th>お部屋</th>
+                <td>客室数305室
+                    <br>・セミダブル21室　・ダブル163室　・クイーン22室　・デラックスクイーン10室　・デラックスツイン78室　・トリプル10室　・ハンディキャップルーム1室</td>
+            </tr>
+            <tr>
+                <th>大浴場</th>
+                <td>最上階に露天風呂付男女別天然温泉大浴場完備</td>
+            </tr>
+            <tr>
+                <th>特徴</th>
+                <td>大阪市営地下鉄谷町線・中央線「谷町四丁目」4番出口より徒歩4分の好立地。
+                    <br>ドーミーイン最大の客室数。</td>
+            </tr>
+            <tr>
+                <th>駐車場</th>
+                <td>立体駐車場18台　2,000円/日　※先着順</td>
+            </tr>
+            <tr>
+                <th>布団</th>
+                <td>布団：羽毛
+                    <br>枕：羽毛</td>
+            </tr>
+        </table>
+        <!-- /Content Common 02 Content -->
+        <p class="contentCmn02_btn txt-center disp-pc"><a href="/hotels/panf/osakatanimachi/">カタログをダウンロード</a></p>
+        <div class="allergy mt50">
+            <div class="allergy_inner">
+                <div>
+                    <h3 class="allergy_ttl">食物アレルギーをお持ちのお客様へ</h3></div>
+                <p class="allergy_des">ドーミーインチェーンにおきましては、朝食の調理過程において、下記のアレルギー特定原材料7品目も含め他アレルギー食材と同一の調理器具、油等を使用して調理しています。</p>
+                <table class="tbl-type01 mt20">
+                    <tr>
+                        <th>アレルギー特定原材料
+                            <br>7品目</th>
+                        <td>■卵　■小麦　■えび　■乳　■かに　■そば　■落花生</td>
+                    </tr>
+                </table>
+                <p class="allergy_des">夜鳴きそばは、鳥・豚を調理したスープ、麺は小麦粉を使用しております。</p>
+            </div>
+        </div>
+        <!-- /Allergy -->
+    </div>
+</div>
+<!-- // Content Common 02 -->
+<!-- Checkin -->
+<div class="checkin disp-pc">
+    <div class="container group">
+        <div class="checkin_ttl">
+            <h2>天然温泉 浪華の湯<br>ドーミーイン大阪谷町<br><a href="/hotels/osakatanimachi/access/">〒540-0026　大阪府大阪市中央区内本町2-1-9	</a></h2>
+        </div>
+        <!-- Checkin Title -->
+        <div class="checkin_ctn">
+            <form id="Test1" style="color:#fff !important;">
+                <span class="bookingDate style_block_area style_booking_inner"></span>
+                <p class="checkin_ctn_btn txt-center"><span class="dynSubmit style_block_area"></span></p>
+            </form>
+        </div>
+        <!-- Checkin Content -->
+    </div>
+</div>
+<!-- // Checkin -->
+<!-- Content Common 03 -->
+<div class="contentCmn03 txt-center">
+    <div class="container">
+        <p class="mt30"><img src="/hotels/osakatanimachi/image/img_index_13.jpg" alt=""></p>
+        <p class="mt30"><a href="/dormyinn/information/weco/new.html"><img src="/hotels/osakatanimachi/image/img_index_14.jpg" alt=""></a></p>
+    </div>
+</div>
+<!-- // Content Common 03 -->
+<!-- Footer Page -->
+<div class="footerPage">
+    <div class="footerPage_addr">
+        <div class="footerPage_addr_map">
+            <div id="map"></div>
+        </div>
+        <div class="container">
+            <div class="footerPage_addr_ctn">
+                <p class="txt-center">天然温泉 浪華の湯 
+                    <br>ドーミーイン大阪谷町  
+                    <br>〒540-0026
+                    <br>大阪府大阪市中央区内本町2-1-9	
+                    <br>
+                    <a href="tel:0669455489">TEL.06-6945-5489</a>
+                    <br class="disp-pc">FAX.06-6945-5656
+                    <br>
+                    <a href="mailto:inn-osakatanimachi@dormy-hotels.com">inn-osakatanimachi@dormy-hotels.com</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- /Footer Page Address -->
+    <div class="footerPage_navbar">
+        <div class="container">
+            <div class="footerPage_navbar_row">
+                <div class="footerPage_navbar_col">
+                    <img src="/hotels/osakatanimachi/assets/image/footerpage_logo.png" alt="" class="disp-pc">
+                    <img src="/hotels/osakatanimachi/assets/image/footerpage_logo_sp.png" alt="" class="disp-sp">
+                </div>
+                <div class="footerPage_navbar_col">
+                    <ul class="footerPage_navbar_list">
+                        <li><a href="/resort/">共立リゾート</a></li>
+                        <li><a href="/dormyinn/">ドーミーイン</a></li>
+                        <li><a href="/spa/">スパ</a></li>
+                        <li><a href="/dormyinn/list/">施設一覧</a></li>
+                    </ul>
+                </div>
+                <div class="footerPage_navbar_col">
+                    <ul class="footerPage_navbar_list">
+                        <li><a href="#" data-remodal-target="notice">予約の確認・変更</a></li>
+                        <li><a href="https://member.kyoritsugroup.com/mypage/update?cid=C02" target="_blank">会員登録情報の確認・変更</a></li>
+                    </ul>
+                </div>
+                <div class="footerPage_navbar_col">
+                    <ul class="footerPage_navbar_list">
+                        <li><a href="/rule/">ご利用規約</a></li>
+                        <li><a href="http://www.kyoritsugroup.co.jp/privacy/index.html" target="_blank">個人情報保護方針</a></li>
+                        <li><a href="http://www.kyoritsugroup.co.jp/company/index.html" target="_blank">会社情報</a></li>
+                        <li><a href="http://www.kyoritsugroup.co.jp/recruit/" target="_blank">採用情報</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Footer Page Navbar -->
+    <p class="footerPage_copy txt-center">Copyright 2018 kyoritsugroup.co.jp All rights reserved.</p>
+    <p class="footerPage_bottom txt-center"><img src="/hotels/osakatanimachi/assets/image/footerpage_bottom.png" alt=""></p>
+</div>
+<!-- // Footer Page -->
+<!-- Navbar SP -->
+<div class="navbarSP disp-sp">
+    <ul class="navbarSP_items">
+        <li class="navbarSP_item col-4">
+            <a href="/hotels/osakatanimachi/">
+                <p><img src="/hotels/osakatanimachi/assets/image/navbarsp_item01.png" alt=""></p>
+                <p>ホーム</p>
+            </a>
+        </li>
+        <li class="navbarSP_item col-4">
+            <a href="https://asp.hotel-story.ne.jp/ver3d/planlist.asp?hcod1=MI740&hcod2=001&bcid=C02&mode=seek&clrmode=true&reffrom=" target="_blank">
+                <p><img src="/hotels/osakatanimachi/assets/image/navbarsp_item02.png" alt=""></p>
+                <p>宿泊予約</p>
+            </a>
+        </li>
+        <li class="navbarSP_item col-4">
+            <a href="/hotels/osakatanimachi/access/">
+                <p><img src="/hotels/osakatanimachi/assets/image/navbarsp_item03.png" alt=""></p>
+                <p>アクセス</p>
+            </a>
+        </li>
+        <li class="navbarSP_item navbarSP_item_last col-4">
+            <a href="tel:0669455489">
+                <p><img src="/hotels/osakatanimachi/assets/image/navbarsp_item04.png" alt=""></p>
+                <p>TEL</p>
+            </a>
+        </li>
+    </ul>
+</div>
+<!-- // Navbar SP -->
+<!-- Javascript -->
+<script src="/hotels/osakatanimachi/assets/js/jquery-1.12.4.js"></script>
+<script src="/hotels/osakatanimachi/assets/js/jquery-ui.js"></script>
+<script src="/hotels/osakatanimachi/assets/js/function.js"></script>
+<script>
+function initMap() {
+    var myLatLng = new google.maps.LatLng(34.683553, 135.513637);
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 17,
+        center: myLatLng
+    });
+    var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        title: '天然温泉 浪華の湯 ドーミーイン大阪谷町'
+    });
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJXy0rPvM5YyZ35EvZihADEEVHJC0jCdk&amp;callback=initMap" async defer></script>
+<script src="/hotels/osakatanimachi/assets/js/flexslider.js"></script>
+<script>
+$(function() {
+    $('.headerPage_mainvisual').flexslider({
+        animation: "slide",
+        controlNav: false,
+        directionNav: false,
+        slideshowSpeed: 5000
+    });
+});
+</script>
+<!-- // Javascript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash-compat/3.10.0/lodash.min.js"></script>
+<script type="text/javascript" src="/hotels/osakatanimachi/assets/search/Data/JSON.js" charset="utf-8"></script>
+<script type="text/javascript" src="/common/search/dormyinn_standard/src/dynjs/calculation.js" charset="utf-8"></script>
+<script type="text/javascript" src="/common/search/dormyinn_standard/src/dynjs/getURL.js" charset="utf-8"></script>
+<script type="text/javascript" src="/common/search/dormyinn_standard/src/dynjs/jkl-calendar.js" charset="Shift_JIS"></script>
+<script type="text/javascript" src="/common/search/dormyinn_standard/src/dynjs/exec.js" charset="utf-8"></script>

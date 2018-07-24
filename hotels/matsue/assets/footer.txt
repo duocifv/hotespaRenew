@@ -1,0 +1,243 @@
+<!-- Content Common 01 -->
+<div class="contentCmn01">
+    <div class="container">
+        <div>
+            <h2 class="contentCmn01_ttl txt-center">もっと詳しく当ホテルの情報を見る</h2>
+        </div>
+        <!-- /Content Common 01 Title -->
+        <div class="contentCmn01_items group">
+            <div class="contentCmn01_item col-3 col-2-sp">
+                <div class="contentCmn01_item_inner">
+                    <p><a href="/hotels/matsue/hotel/"><img src="/hotels/matsue/image/img_index_07.jpg" alt="" class="w100"></a></p>
+                    <div>
+                        <h3 class="contentCmn01_item_ttl txt-center"><a href="/hotels/matsue/hotel/">施設のフロア情報</a></h3></div>
+                </div>
+            </div>
+            <div class="contentCmn01_item col-3 col-2-sp">
+                <div class="contentCmn01_item_inner">
+                    <p><a href="/hotels/matsue/room/"><img src="/hotels/matsue/image/img_index_08.jpg" alt="" class="w100"></a></p>
+                    <div>
+                        <h3 class="contentCmn01_item_ttl txt-center"><a href="/hotels/matsue/room/">客室について</a></h3></div>
+                </div>
+            </div>
+            <div class="contentCmn01_item col-3 col-2-sp">
+                <div class="contentCmn01_item_inner">
+                    <p><a href="/hotels/matsue/access/"><img src="/hotels/matsue/image/img_index_09.jpg" alt="" class="w100"></a></p>
+                    <div>
+                        <h3 class="contentCmn01_item_ttl txt-center"><a href="/hotels/matsue/access/">ホテルへのアクセス</a></h3></div>
+                </div>
+            </div>
+        </div>
+        <!-- /Content Common 01 Items -->
+    </div>
+</div>
+<!-- // Content Common 01 -->
+<!-- Content Common 02 -->
+<div class="contentCmn02">
+    <div class="container">
+        <div>
+            <h2 class="contentCmn02_ttl txt-center">施設概要</h2>
+        </div>
+        <!-- /Content Common 02 Title -->
+        <table class="contentCmn02_ctn tbl-type01">
+            <tr>
+                <th>開業年</th>
+                <td>2012年7月</td>
+            </tr>
+            <tr>
+                <th>部屋</th>
+                <td>客室数137室 
+                    <br>・シングル 61室　・セミダブル 59室　
+                    <br>・ツイン 9室　・クイーン 3室　  
+                    <br>・デラックスクイーン 3室　         
+                    <br>・和洋室 1室　・ユニバーサル 1室  
+                </td>
+            </tr>
+            <tr>
+                <th>大浴場</th>
+                <td>ございません。
+                    <br>※全客室にＴＶ付ユニットバスを完備しております。
+                    <br>（ジェットバスタイプや半身浴タイプ有り）
+                </td>
+            </tr>
+            <tr>
+                <th>特徴</th>
+                <td>全室無線LAN（Wi-Fi）対応
+                    <br>全室禁煙（喫煙ブース1Ｆ、5Ｆ、7Ｆ）
+                    <br>※一部眺望の望めない部屋がございます。</td>
+            </tr>
+            <tr>
+                <th>布団</th>
+                <td>布団：羽毛 枕：ソロテックスキルト立体枕</td>
+            </tr>
+        </table>
+        <!-- /Content Common 02 Content -->
+        <p class="contentCmn02_btn txt-center disp-pc"><a href="/hotels/panf/matsue/">カタログをダウンロード</a></p>
+        <div class="allergy mt50">
+            <div class="allergy_inner">
+                <div>
+                    <h3 class="allergy_ttl">食物アレルギーをお持ちのお客様へ</h3></div>
+                <p class="allergy_des">ドーミーインチェーンにおきましては、朝食の調理過程において、下記のアレルギー特定原材料7品目も含め他アレルギー食材と同一の調理器具、油等を使用して調理しています。</p>
+                <table class="tbl-type01 mt20">
+                    <tr>
+                        <th>アレルギー特定原材料
+                            <br>7品目</th>
+                        <td>■卵　■小麦　■えび　■乳　■かに　■そば　■落花生</td>
+                    </tr>
+                </table>
+                <p class="allergy_des">夜鳴きそばは、鳥・豚を調理したスープ、麺は小麦粉を使用しております。</p>
+            </div>
+        </div>
+        <!-- /Allergy -->
+    </div>
+</div>
+<!-- // Content Common 02 -->
+<!-- Checkin -->
+<div class="checkin disp-pc">
+    <div class="container group">
+        <div class="checkin_ttl">
+            <h2>ドーミーインEXPRESS松江<br><a href="/hotels/matsue/access/">〒690-0003　島根県松江市朝日町498-1</a></h2>
+        </div>
+        <!-- Checkin Title -->
+        <div class="checkin_ctn">
+            <form id="Test1" style="color:#fff !important;">
+                <span class="bookingDate style_block_area style_booking_inner"></span>
+                <p class="checkin_ctn_btn txt-center"><span class="dynSubmit style_block_area"></span></p>
+            </form>
+        </div>
+        <!-- Checkin Content -->
+    </div>
+</div>
+<!-- // Checkin -->
+<!-- Content Common 03 -->
+<div class="contentCmn03 txt-center">
+    <div class="container">
+        <div class="mt30"><a href="/dormyinn/information/weco/new.html"><img src="/hotels/matsue/image/img_index_07_pc.jpg" alt="連泊WECO清掃"></a></div>
+        <div class="mt30"><a href="https://www.tour-list.com/TL/?hc=IZO18" target="_blank"><img src="/hotels/matsue/image/banner_plain.jpg" alt="浅草・悠湯〜日帰り旅〜　Refresh Express浅草スペシャル"></a></div>
+    </div>
+</div>
+<!-- // Content Common 03 -->
+<!-- Footer Page -->
+<div class="footerPage">
+    <div class="footerPage_addr">
+        <div class="footerPage_addr_map">
+            <div id="map"></div>
+        </div>
+        <div class="container">
+            <div class="footerPage_addr_ctn">
+                <p class="txt-center">ドーミーインEXPRESS松江
+                    <br>〒690-0003　
+                    <br>島根県松江市朝日町498-1
+                    <br><a href="tel:0852595489">TEL.0852-59-5489</a>
+                    <br>FAX.0852-24-3053
+                    <br>
+                    <a href="mailto:inn-matsue@dormy-hotels.com">inn-matsue@dormy-hotels.com</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- /Footer Page Address -->
+    <div class="footerPage_navbar">
+        <div class="container">
+            <div class="footerPage_navbar_row">
+                <div class="footerPage_navbar_col">
+                    <img src="/hotels/matsue/assets/image/footerpage_logo.png" alt="express dormy inn" class="disp-pc">
+                    <img src="/hotels/matsue/assets/image/footerpage_logo_sp.png" alt="express dormy inn" class="disp-sp">
+                </div>
+                <div class="footerPage_navbar_col">
+                    <ul class="footerPage_navbar_list">
+                        <li><a href="/resort/">共立リゾート</a></li>
+                        <li><a href="/dormyinn/">ドーミーイン</a></li>
+                        <li><a href="/spa/">スパ</a></li>
+                        <li><a href="https://renewal.hotespa.net/dormyinn/list/">施設一覧</a></li>
+                    </ul>
+                </div>
+                <div class="footerPage_navbar_col">
+                    <ul class="footerPage_navbar_list">
+                        <li><a href="#" data-remodal-target="notice">予約の確認・変更</a></li>
+                        <li><a href="https://member.kyoritsugroup.com/mypage/update?cid=C02" target="_blank">会員登録情報の確認・変更</a></li>
+                    </ul>
+                </div>
+                <div class="footerPage_navbar_col">
+                    <ul class="footerPage_navbar_list">
+                        <li><a href="/rule/">ご利用規約</a></li>
+                        <li><a href="http://www.kyoritsugroup.co.jp/privacy/index.html" target="_blank">個人情報保護方針</a></li>
+                        <li><a href="http://www.kyoritsugroup.co.jp/company/index.html" target="_blank">会社情報</a></li>
+                        <li><a href="http://www.kyoritsugroup.co.jp/recruit/" target="_blank">採用情報</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Footer Page Navbar -->
+    <p class="footerPage_copy txt-center">Copyright 2018 kyoritsugroup.co.jp All rights reserved.</p>
+    <p class="footerPage_bottom txt-center"><img src="/hotels/matsue/assets/image/footerpage_bottom.png" alt="よい朝のために。Kyoritsu Hotels & Dormitories"></p>
+</div>
+<!-- // Footer Page -->
+<!-- Navbar SP -->
+<div class="navbarSP disp-sp">
+    <ul class="navbarSP_items">
+        <li class="navbarSP_item col-4">
+            <a href="/hotels/matsue/">
+                <p><img src="/hotels/matsue/assets/image/navbarsp_item01.png" alt=""></p>
+                <p>ホーム</p>
+            </a>
+        </li>
+        <li class="navbarSP_item col-4">
+            <a href="https://asp.hotel-story.ne.jp/ver3d/planlist.asp?hcod1=MI340&hcod2=001&bcid=C02&mode=seek&clrmode=true&reffrom=" target="_blank">
+                <p><img src="/hotels/matsue/assets/image/navbarsp_item02.png" alt=""></p>
+                <p>宿泊予約</p>
+            </a>
+        </li>
+        <li class="navbarSP_item col-4">
+            <a href="/hotels/matsue/access/">
+                <p><img src="/hotels/matsue/assets/image/navbarsp_item03.png" alt=""></p>
+                <p>アクセス</p>
+            </a>
+        </li>
+        <li class="navbarSP_item navbarSP_item_last col-4">
+            <a href="tel:0852595489">
+                <p><img src="/hotels/matsue/assets/image/navbarsp_item04.png" alt=""></p>
+                <p>TEL</p>
+            </a>
+        </li>
+    </ul>
+</div>
+<!-- // Navbar SP -->
+<!-- Javascript -->
+<script src="/hotels/matsue/assets/js/jquery-1.12.4.js"></script>
+<script src="/hotels/matsue/assets/js/jquery-ui.js"></script>
+<script src="/hotels/matsue/assets/js/function.js"></script>
+<script>
+function initMap() {
+    var myLatLng = new google.maps.LatLng(35.464546, 133.060093);
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 17,
+        center: myLatLng
+    });
+    var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        title: '【公式】ドーミーインEXPRESS松江'
+    });
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJXy0rPvM5YyZ35EvZihADEEVHJC0jCdk&amp;callback=initMap" async defer></script>
+<script src="/hotels/matsue/assets/js/flexslider.js"></script>
+<script>
+$(function() {
+    $('.headerPage_mainvisual').flexslider({
+        animation: "slide",
+        controlNav: false,
+        directionNav: false,
+        slideshowSpeed: 5000
+    });
+});
+</script>
+<!-- // Javascript -->
+<script src="/hotels/matsue/assets/js/route.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash-compat/3.10.0/lodash.min.js"></script>
+<script type="text/javascript" src="/hotels/matsue/assets/search/Data/JSON.js" charset="utf-8"></script>
+<script type="text/javascript" src="/common/search/dormyinn_standard/src/dynjs/calculation.js" charset="utf-8"></script>
+<script type="text/javascript" src="/common/search/dormyinn_standard/src/dynjs/getURL.js" charset="utf-8"></script>
+<script type="text/javascript" src="/common/search/dormyinn_standard/src/dynjs/jkl-calendar.js" charset="Shift_JIS"></script>
+<script type="text/javascript" src="/common/search/dormyinn_standard/src/dynjs/exec.js" charset="utf-8"></script>

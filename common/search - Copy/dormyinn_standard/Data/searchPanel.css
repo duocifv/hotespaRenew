@@ -1,0 +1,100 @@
+/*各項目の題目*/
+.style_subhead {
+	margin		 : 0;
+	padding		 : 0;
+	font-size	 : 14px;
+	font-weight	 : bold;
+}
+/*各項目本体部分*/
+.style_block_area {
+	margin		 : 0;
+	padding		 : 0 5px;
+	float		 : left;
+	display		 : block;
+}
+
+.style_chkymd,/*日付未定チェックボックス*/
+.style_chkpsn {/*人数未定チェックボックス*/
+	margin		 : 0;
+	padding		 : 0;
+}
+.style_inputButton {/*各ボタン入力項目*/
+	width		 : auto;
+	margin		 : 3px auto;
+	text-align	 : center;
+}
+.style_inputArea {/*その他の入力項目*/
+	margin		 : 2px 0;
+	padding		 : 2px 3px;
+}
+
+.dynDP,/*航空券付プラン検索項目*/
+.dynGroup,/*グループ検索項目*/
+.bookingDate,/*日付設定項目*/
+.dynPersons,/*人数設定項目*/
+.dynPrice,/*金額上下限項目*/
+.dynDispunit {/*検索モード選択項目*/
+	width		 : 100%;
+	margin		 : 0;
+	padding		 : 5px;
+	border		 : none;
+}
+/*検索モードの各選択肢*/
+.style_dyndispunitElement {
+}
+
+hr {
+	clear		 : both;
+	width		 : 98%;
+	height		 : 0;
+	margin		 : 0;
+	padding		 : 0;
+	border		 : none;
+	border-bottom	 : 1px dotted #CCCCCC;
+}
+/*
+--------------------------------------------------
+	Topic Path tabs
+	以下タブ切り替え関連
+--------------------------------------------------
+*/
+/*タブ切り替え項目全体*/
+.style_topicPathTabs {
+	padding:0px 0 5px 0;
+	width: 98%;
+	font-size: 100%;
+	line-height: 1.3em;
+	margin:0;
+	padding: 0 5px;
+	background: url(http://asp.hotel-story.ne.jp/ver3d/image/topic_path_tabs_bg.png) no-repeat left bottom;
+	float: left;
+	}
+/*各タブの大外枠*/
+.style_topicPathTabsList { display: block; float: left;}
+/*非選択タブ*/
+.style_topicPathTabsLink {
+	color: #333;
+	font-size:85%;
+	margin: 3px 1px 0 1px;
+	padding: 6px 6px;
+	border: solid #aaa;
+	border-width: 1px 1px 0;
+	border-bottom: 1px solid #aaa;
+	background: #dedede;
+	display: block;
+	}
+.style_topicPathTabsLink:hover { color: #555; text-decoration: underline;}
+/*選択タブ*/
+.style_topicPathTabsLink.current {
+	color: #3366CC;
+	font-size:100%;
+	font-weight: bold;
+	margin: 0 5px;
+	padding: 6px 6px 11px;
+	border: solid #aaa;
+	border-width: 1px 1px 0;
+	border-bottom: 1px solid #FFF;
+	background: url(http://asp.hotel-story.ne.jp/ver3d/image/topic_path_tabs.png) no-repeat left top;
+	display: block;
+	}
+.style_topicPathTabsLink.current:hover { color: #003399; text-decoration: none;}

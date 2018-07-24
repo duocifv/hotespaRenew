@@ -1,0 +1,19 @@
+<div id="tmpl_header_wrapper" class="puplic dormyinn_header">
+	<div class="tmpl_header_border">
+		<div id="nav_list">
+			<p>我が家のようなくつろぎの空間と心震える旅の時間をお届けするドーミーインホテル</p>
+			<a href="/dormyinn/"><img src="/common/img/dormyinn_logo.png" alt="dormyinn"></a>
+			<a href="#" id="tmpl_utilityOpen" class="tmpl_close"></a>
+		</div>
+	</div>
+	<div id="tmpl_util">
+		<ul class="left">
+			<li><a href="https://renewal.hotespa.net/dormyinn/" target="_blank">dormyinn　トップ</a></li>
+			<li><a href="https://renewal.hotespa.net/dormyinn/list/" target="_blank">dormyinn　施設一覧</a></li>
+		</ul>
+		<ul class="left">
+			<li><a href="https://member.kyoritsugroup.com/mypage/update?cid=C02" target="_blank">会員登録情報の確認・変更</a></li>
+			<li><a href="https://renewal.hotespa.net/resort/" target="_blank">共立リゾート　トップ</a></li>
+		</ul>
+	</div>
+</div>

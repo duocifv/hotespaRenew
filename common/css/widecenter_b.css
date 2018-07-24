@@ -1,0 +1,430 @@
+@charset "utf-8";
+
+/* ===========================================
+ * 
+ * Home
+ * 
+=========================================== */
+
+body,div,dl,dt,dd,ul,ol,li,
+h1,h2,h3,h4,h5,h6,
+pre,code,form,fieldset,legend,
+p,blockquote,table,th,td {
+	margin: 0;
+	padding: 0;
+}
+
+.pan_list {
+	font-size: 10px;
+}
+
+/* ===========================================
+ * Base
+ * -------------------------------------------
+ * 10.08.12
+=========================================== */
+
+/* General
+=========================================== */
+
+body {
+	color: #333;
+	background-color:#FFF;
+}
+
+strong {
+	font-weight: bold;
+}
+
+a {
+	color: #0066cc;
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active, a:focus {
+	outline: none;
+}
+
+a img,:link img,:visited img {
+	border: none;
+}
+
+/* Clear
+=========================================== */
+
+.clear {
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	font-size: 1px;
+	line-height: 1px;
+}
+
+.addclear {
+	display: block;
+	clear: both;
+}
+
+/* clearfix */
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-block;
+	min-height: 1%;
+}
+
+/* IE for Mac */
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+
+/* Dreamweaver */
+
+.clearfix {
+	overflow: hidden;
+}
+
+.none {
+	display: none;
+}
+
+/* Layout
+=========================================== */
+
+#gHeader {
+	width: 100%;
+	min-width: 970px;
+	background: url(/image_common/hedaer/hd_biz_bg.gif) repeat-x bottom;
+}
+
+#gHeader .wrap {
+	position: relative;
+	margin: 0 auto;
+	width: 950px;
+	height: 103px;
+}
+
+#wrapper {
+	/*margin-top: 1px;*/
+	width: 100%;
+	min-width: 950px;
+}
+
+#noro{
+	width: 950px;
+	margin: 0 auto;
+	background: url(../img/bg.png) repeat-y;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#noro p{
+	padding-bottom: 20px;
+}
+
+#noro_en{
+	width: 950px;
+	margin: 0 auto;
+	background: url(../img/bg_en.png) repeat-y;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#noro_en p{
+	padding-bottom: 20px;
+}
+
+#noro_kr{
+	width: 950px;
+	margin: 0 auto;
+	background: url(../img/bg_kr.png) repeat-y;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#noro_kr p{
+	padding-bottom: 20px;
+}
+
+#noro_ch{
+	width: 950px;
+	margin: 0 auto;
+	background: url(../img/bg_ch.png) repeat-y;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#noro_ch p{
+	padding-bottom: 20px;
+}
+
+#footer {
+	width: 100%;
+	background: silver url(/image_common/footer/footer_bg.jpg)  repeat-x;
+}
+
+#footer .wrap {
+	margin: 0 auto;
+	padding: 0;
+	width: 950px;
+}
+
+#footer .ft_menu {
+	margin-bottom: 1px;
+	padding: 9px 0 7px;
+	/*border-bottom: 1px solid #666666;*/
+	text-align: center;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+#footer .ft_menu a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#footer .ft_menu a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#footer .ft_menu a:visited {
+	color: #D4D4D4;
+	text-decoration: none;
+}
+
+#footer .ft_menu a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+#footer .ft_bg {
+	position: relative;
+	padding: 7px 10px 10px 0;
+	text-align: right;
+	font-size: 10px;
+	color: #666666;
+}
+
+#footer .ft_bg img {
+	margin: 10px 0 5px;
+}
+
+#footer .ft_bg ul {
+	position: absolute;
+	top: 7px;
+	left: 10px;
+}
+
+#footer .ft_bg ul li {
+	display: inline;
+	padding: 0 14px 0 12px;
+	background: url(/image_common/footer/ft_btn_arrow.jpg) no-repeat 0 0.1em;
+}
+
+#footer .ft_bg ul a {
+	color: #666666;
+	text-decoration: none;
+}
+
+#footer .ft_bg ul a:active {
+	color: #666666;
+	text-decoration: none;
+}
+
+#footer .ft_bg ul a:visited {
+	color: #999999;
+	text-decoration: none;
+}
+
+#footer .ft_bg ul a:hover {
+	color: #666666;
+	text-decoration: underline;
+}
+
+#linkarea {
+	margin-bottom: 40px;
+	line-height: 13px;
+	font-size: 11px;
+	font-family: "メイリオ","ヒラギノ角ゴ Pro W3";
+	background: url(../../img/linkarea_bg.gif) repeat-y;
+	margin-top: 20px;
+}
+
+#linkarea .block {
+	width: 313px;
+	float: left;
+	margin-top: 10px;
+}
+
+#linkarea .block li {
+	list-style-position: inside;
+	list-style-image: url(../images/sankaku.gif);
+	padding-bottom: 5px;
+	margin-left: 5px;
+	text-indent: -1.0em;
+}
+
+#linkarea .block a {
+	color: #3F495D;
+	text-decoration: none;
+}
+
+#linkarea .block a:active {
+	text-decoration: underline;
+	color: #A58D38;
+}
+
+#linkarea .block a:hover {
+	text-decoration: underline;
+	color: #A58D38;
+}
+
+#linkarea .block h3 {
+	color: #539ACE;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	font-family: "ヒラギノ明朝 Pro W3","ＭＳ Ｐ明朝";
+}
+
+.margintop10 {
+	margin-top: 10px;
+}
+
+.margintop20 {
+	margin-top: 20px;
+}
+
+.margintop30 {
+	margin-top: 30px;
+}
+
+.margintop40 {
+	margin-top: 40px;
+}
+
+/* ===========================================
+ * Parts
+ * -------------------------------------------
+ * 10.08.11
+=========================================== */
+
+/* GlobalHeader
+=========================================== */
+
+#gHeader h1 {
+	padding: 9px 0 46px 15px;
+}
+
+#gHeader ul.hd_member {
+	position: absolute;
+	top: 17px;
+	left: 180px;
+	width: 600px;
+	z-index: 1;
+}
+
+#gHeader ul.hd_member li {
+	display: inline;
+	padding-right: 10px;
+}
+
+#gHeader ul.hd_member li.us {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#gHeader ul.hd_member li.bt {
+	padding-left: 12px;
+	background-repeat: no-repeat;
+	background-position: 0 0.1em;
+	font-size: 10px;
+}
+
+#gHeader ul.hd_member .att {
+	color: #cc3300;
+}
+
+#gHeader ul.hd_member li.bt {
+	background-image: url(/image_common/hedaer/hd_res_arrow.gif);
+}
+
+#gHeader .hd_search {
+	position: absolute;
+	top: 13px;
+	right: 0;
+}
+
+#gHeader .hd_search input {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#gHeader .hd_search input.word {
+	padding: 0 4px;
+	width: 120px;
+	height: 18px;
+	border: 1px solid #999999;
+	background-repeat: no-repeat;
+	background-position: 5px center;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+#gHeader .hd_fsize {
+	position: absolute;
+	top: 48px;
+	right: 0;
+}
+
+#gHeader ul.hd_navi {
+	position: absolute;
+	top: 40px;
+	left: 15px;
+	font-size: 0;
+	line-height: 0;
+}
+
+#gHeader ul.hd_navi li {
+	display: inline;
+	float: left;
+	padding: 7px 3px 0 0;
+}
+
+#gHeader ul.hd_navi li.hd {
+	padding: 0;
+}
+
+#gHeader ul.hd_menu {
+	font-size: 0;
+	line-height: 0;
+}
+
+#gHeader ul.hd_menu li {
+	display: inline;
+	float: left;
+}

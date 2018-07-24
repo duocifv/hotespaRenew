@@ -1,0 +1,28 @@
+body {background-color: #F4ECD6;font-family: "‚l‚r ‚oƒSƒVƒbƒN", "Osaka";}
+
+h1.TITLE {font-size: 16px;line-height: 100%;font-weight: bold;color: #670101;margin:0px;padding:0px;}
+h1.SEARCH {font-size: 16px;line-height: 100%;font-weight: bold;color: #670101;margin:0px;padding:0px;}
+h2 {font-size: 14px;line-height: 100%;font-weight: normal;color: #452D0A;margin:20px 0px 0px 0px;padding:0px 0px 0px 0px;}
+h2.SEARCH {font-size: 12px;line-height: 100%;font-weight: bold;color: #452D0A;margin:0px;padding:3px 0px 0px 7px;background-image: url(/search/detail/common/x_h2_bg.gif);background-repeat: no-repeat;height: 20px;width: 430px;}
+h3 {font-size: 12px;line-height: 100%;font-weight: bold;color: #6E5B10;margin:15px 0px 0px 0px;padding:0px 0px 0px 0px;}
+h3.SEARCH {font-size: 12px;line-height: 100%;font-weight: bold;color: #6E5B10;margin:0px;padding:0px;}
+h4 {font-size: 12px;line-height: 100%;font-weight: normal;color: #6E5B10;margin:15px 0px 0px 0px;padding:0px 0px 0px 0px;}
+
+.BREAD {font-size: 10px;line-height: 100%;color: #4B452F;}
+.ENLARGE {font-size: 10px;line-height: 100%;color: #4B452F;}
+p.NORM {font-size: 12px;line-height: 140%;font-weight: normal;color: #4B452F;margin:10px 0px 0px 0px;padding:0px 0px 0px 0px;}
+.NORM {font-size: 12px;line-height: 140%;color: #4B452F;}
+.LARGE {font-size: 14px;line-height: 140%;color: #4B452F;}
+.NOTE {font-size: 10px;line-height: 120%;color: #746E57;}
+.LNAV {font-size: 12px;line-height: 110%;color: #4B452F;}
+.FOOTER {font-family: "Verdana", "Geneva", "Arial";font-size: 10px;line-height: 100%;color: #746E57;}
+
+ul{padding:0px;margin:10px 0px 0px 18px;list-style-position:outside}
+li{padding:0px;margin:0px;font-size: 12px;line-height: 140%;color: #4B452F;}
+ul.NOTE{padding:0px;margin:5px 0px 5px 18px;list-style-image: url('/common/img/x_note.gif');list-style-position:outside}
+li.NOTE{padding:0px;margin:0px;font-size: 10px;line-height: 140%;color: #746E57;}
+ul.FAQ{padding:10px;margin:15px 0px 0px 0px;background-color:#FFFFFF;color:#666666}
+li.Q{padding:0px;margin:0px 0px 0px 20px;font-size: 12px;line-height: 100%;list-style-image: url('/faq/img/x_q.gif');}
+li.A{padding:0px;margin:5px 0px 0px 20px;font-size: 12px;line-height: 140%;list-style-image: url('/faq/img/x_a.gif');}
+ul.TYPE{padding:10px;margin:15px 0px 0px 0px;background-color:#FFFFFF;list-style-position:inside;list-style-type: none;}
+li.TYPE{padding:0px;margin:0px 0px 0px 15px;display:inline}

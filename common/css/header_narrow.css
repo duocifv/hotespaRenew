@@ -1,0 +1,971 @@
+@charset "utf-8";
+
+
+/***************************************
+ * Header
+ **************************************/
+div#tmpl_header_wrapper {
+  position: relative;
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  font-family: "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","ＭＳ Ｐゴシック",Osaka,sans-serif;
+  width: 750px; }
+  div#tmpl_header_wrapper a {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+    div#tmpl_header_wrapper a:link, div#tmpl_header_wrapper a:visited {
+      color: #fff;
+      text-decoration: none; }
+    div#tmpl_header_wrapper a:hover, div#tmpl_header_wrapper a:active {
+      color           : #aeb1c2;
+      text-decoration : none;
+    }
+    div#tmpl_header_wrapper a img {
+      margin: 0;
+      padding: 0;
+      border: none; }
+  div#tmpl_header_wrapper h1, div#tmpl_header_wrapper h2, div#tmpl_header_wrapper h3, div#tmpl_header_wrapper h4, div#tmpl_header_wrapper h5, div#tmpl_header_wrapper h6 {
+    margin: 0;
+    padding: 0;
+    font-size: 1em; }
+  div#tmpl_header_wrapper ul, div#tmpl_header_wrapper li {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  div#tmpl_header_wrapper ul#tmpl_globalNavi {
+    padding-left: 15px; }
+
+#tmpl_header {
+  position: relative;
+  max-width: 750px;
+  margin: 0 auto;
+  line-height: 1.0;
+  min-height:40px; }
+
+#tmpl_utilityOpen {
+  display: none; }
+
+
+div#tmpl_siteLogo {
+  position    : absolute;
+  top         : 24px;
+  right       : 20px;
+  font-family : Helvetica, Arial !important;
+  font-size   : 11pt;
+  font-weight : bold;
+  color       : #fff;
+}
+
+
+
+ul#tmpl_util {
+  position  : absolute;
+  top       : 18px;
+  right     : 82px;
+  width     : auto;
+  *width    : 578px; /* IE7 and below */
+/*  max-width : 750px;*/
+  clear     : both;
+}
+  ul#tmpl_util li {
+    display        : inline-block;
+    vertical-align : middle;
+    *vertical-align: baseline; /* IE7 and below */
+    margin-left    : 0.1em;
+    float          : left;
+    color          : #aeb1c2;
+  }
+    ul#tmpl_util li a {
+      padding     : 10px 5px;
+      margin      : 0 15px 0 5px;
+      font-weight : normal;
+      font-size   : 12px;
+      line-height : 32px !important;
+    }
+    ul#tmpl_util li a:link,
+    ul#tmpl_util li a:visited
+    {
+      color : #FFF;
+    }
+    ul#tmpl_util li a:hover,
+    ul#tmpl_util li a:active
+    {
+      color           : #fff;
+      text-decoration : none;
+    }
+    ul#tmpl_util #tmpl_aboutSony {
+      margin-right : 30px;
+    }
+    ul#tmpl_util #tmpl_aboutSonyHome {
+      display : none;
+    }
+    ul#tmpl_util #tmpl_aboutSony a {
+      padding : 10px 2px 10px 5px;
+      margin-right : 0;
+    }
+    ul#tmpl_util #tmpl_aboutSonyHome a {
+      padding : 10px 2px;
+     /* margin  : 0 25px 0 0;*/
+    }
+	
+    ul#tmpl_util #tmpl_aboutSonyHome #tmpl_aboutSonyTxt {
+      display : none;
+    }
+
+  ul#tmpl_util #tmpl_search_wrapper {
+    margin-left: 25px;
+    float: right; }
+  #tmpl_search {
+    font-size: 8pt; }
+
+.tmpl_util_border a {
+  border-right: 1px solid #53545d; }
+
+#tmpl_aboutSonyHome.tmpl_open span#tmpl_aboutSonyBtn img.tmpl_aSB_large {
+  *zoom                : 1;
+  *display             : inline;
+  left                 : 0;
+  top                  : -14px;
+}
+#tmpl_aboutSonyHome.tmpl_close span#tmpl_aboutSonyBtn img.tmpl_aSB_large {
+  left                 : 0;
+  top                  : 0;
+}
+#tmpl_aboutSonyHome:hover span#tmpl_aboutSonyBtn img.tmpl_aSB_large {
+  left                 : -21px;
+  top                  : -14px;
+}
+#tmpl_aboutSonyHome.tmpl_close:hover span#tmpl_aboutSonyBtn img.tmpl_aSB_large {
+  left                 : -21px;
+  top                  : 0;
+}
+
+
+
+
+ul#tmpl_globalNavi {
+  padding-left : 10px;
+  text-align   : left;
+  width        : auto;
+  clear        : both;
+}
+  ul#tmpl_globalNavi li {
+    vertical-align : bottom;
+    display        : inline-block;
+    *display       : inline;
+    *zoom          : 1;
+    min-height     : 1.9em;
+  }
+    ul#tmpl_globalNavi li a {
+      display        : inline-block;
+      font-weight    : bold;
+    }
+      ul#tmpl_globalNavi li a:link,
+      ul#tmpl_globalNavi li a:visited
+      {
+        padding        : 13px 5px 15px 5px;
+        font-size      : 10pt;
+        color          : #e8e9eb;
+      }
+      ul#tmpl_globalNavi li a:hover,
+      ul#tmpl_globalNavi li a:active
+      {
+        padding-bottom  : 11px;
+        border-bottom   : 4px solid #5787f4;
+        color           : #fff;
+      }
+  ul#tmpl_globalNavi li {
+    padding : 0px 15px 0px 5px;
+  }
+
+#tmpl_corpInfoList_sml {
+  display: none; }
+
+  width: 950px;
+  margin: 0 auto; }
+
+/***************************************
+ * SMALL SCREEN
+
+ **************************************/
+
+
+
+
+
+  ul#tmpl_util li a:link,
+  ul#tmpl_util li a:visited
+  {
+      font-size : 1em;
+      color     : #fff;
+  }
+  ul#tmpl_util li a:hover, ul#tmpl_util li a:active {
+     /* font-size: 1em; */}
+
+  ul#tmpl_util #tmpl_search_wrapper {
+      margin-left: 0; }
+
+  div#tmpl_header_wrapper {
+    min-width: 280px;
+  }
+
+  #tmpl_header {
+  min-height: 40px;
+    padding-top: 0; }
+
+  h1#tmpl_SonyLogo {
+    float  : none;
+    height : 65px;
+  }
+
+  div#tmpl_siteLogo {
+    position : absolute;
+    top      : 0px;
+    right    : 140px;
+    margin   : 0;
+  }
+    div#tmpl_siteLogo {
+      display     : none;
+    }
+      div#tmpl_siteLogo a img {
+        vertical-align: middle; }
+
+  #tmpl_searchForm {
+    display                     : inline-block;
+    padding                     : 10px 15px 20px 15px;
+    border                      : none;
+    width                       : 100%;
+    background                  : #000;
+    -webkit-tap-highlight-color : rgba(0, 0, 0, 0);
+    box-sizing                  : border-box;
+    -moz-box-sizing             : border-box;
+    -webkit-box-sizing          : border-box;
+    -o-box-sizing               : border-box;
+    -ms-box-sizing              : border-box;
+    }
+
+  div#tmpl_search {
+    position    : relative;
+    height      : auto;
+    font-size   : 1.0em;
+    line-height : 1.3em;
+  }
+    div#tmpl_search input.searchBtn {
+      position : absolute;
+      top      : 0px;
+      right    : 0px;
+      padding  : 0px;
+      width    : 45px;
+    }
+
+  input#MF_form_phrase {
+    box-sizing     : border-box;
+    vertical-align : middle;
+    margin         : 10px 0px 2px 0px;
+    padding        : 0px 45px 0px 10px;
+    width          : 100%;
+  }
+
+  #tmpl_utilityOpen {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: block;
+    font-size: 0.8em;
+/*     line-height: 65px; */
+    vertical-align: middle;
+  }
+
+    #tmpl_utilityOpen.tmpl_noscript_sml_invisible {
+      display: none; }
+
+      #tmpl_utilityOpen.tmpl_open span#tmpl_utilityOpenMark img {
+        top: -40px;
+        left: 0;
+
+      }
+      #tmpl_utilityOpen.tmpl_close span#tmpl_utilityOpenMark img {
+        top: 0;
+        left: 0;
+
+      }
+
+  span#tmpl_utilityOpenMark {
+    display: inline-block;
+    width: 160px;
+    height: 40px;
+    vertical-align: middle;
+    margin-left: 11px;
+    overflow: hidden;
+    position: relative; }
+
+    span#tmpl_utilityOpenMark img {
+      position: absolute;
+ }
+
+  ul#tmpl_util {
+    display   : none;
+    position  : relative;
+    top       : 0px;
+    left      : 0px;
+    font-size : 1.0em;
+    width     : 100%;
+	}
+	
+	
+	
+    #tmpl_util.tmpl_noscript_sml_visible_block {
+      display: block; }
+    ul#tmpl_util li {
+      margin-left: 0;
+      width: 100%;
+      float: none; }
+      ul#tmpl_util li a {
+        box-sizing : border-box;
+        padding    : 10px 20px;
+        display    : block;
+        width      : 100%;
+        margin     : 0;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+      }
+      ul#tmpl_util #tmpl_aboutSony a,
+      ul#tmpl_util #tmpl_aboutSonyHome a {
+       padding: 10px 20px;
+/*  float: left;
+  width: 50%;*/
+    border-right: 1px solid #000;
+      }
+
+      ul#tmpl_util #tmpl_aboutSonyHome #tmpl_aboutSonyTxt {
+        display : inline-block;
+      }
+
+    ul#tmpl_util #tmpl_search_wrapper {
+      float: none; }
+
+  .tmpl_util_border a {
+    border-right: none; }
+
+  li.tmpl_util_sml_border a {
+    position      : relative;
+    border-top    : 1px solid #303435;
+    background-color : #222627;
+    border-bottom : 1px solid #181b1b;
+  }
+
+
+    li.tmpl_util_sml_border a:hover,
+    li.tmpl_util_sml_border a:active
+    {
+      background-color : #323536;/*323536*/
+      color            : #797c86;
+    }
+  #tmpl_aboutSonyHome.tmpl_open > a {
+    background-color : #323536;
+  }
+    #tmpl_aboutSonyHome.tmpl_open > a:link, #tmpl_aboutSonyHome.tmpl_open > a:visited {
+      color: #888; }
+    #tmpl_aboutSonyHome.tmpl_open > a:hover, #tmpl_aboutSonyHome.tmpl_open > a:active {
+      color: #afb0b6; }
+
+  span#tmpl_aboutSonyBtn {
+    position          : absolute;
+    width             : 14px;
+    height            : 6px;
+    top               : 50%;
+    right             : 30px;
+    margin            : 0;
+  }
+  span#tmpl_aboutSonyBtn img.tmpl_aSB_large {
+    display: none;
+  }
+  #tmpl_aboutSonyHome.tmpl_close span#tmpl_aboutSonyBtn img.tmpl_aSB_small {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  #tmpl_aboutSonyHome.tmpl_open span#tmpl_aboutSonyBtn img.tmpl_aSB_small {
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
+
+  #tmpl_corpInfoList_sml {
+    display: block;
+    width: 100%; }
+    #tmpl_corpInfoList_sml li {
+      float: none; }
+
+  ul#tmpl_globalNavi {
+    display     : none;
+    position    : relative;
+  }
+
+  .tmpl_noscript_sml_invisible {
+    display: none; }
+
+  .tmpl_noscript_sml_visible_block {
+    display: block; }
+
+  div#tmpl_footer_wrapper {
+    min-width: 320px; }
+
+  div#tmpl_footer {
+    padding: 20px 15px;
+    max-width: 640px;
+    font-size: 0.7em; }
+    div#tmpl_footer ul {
+      width: 50%;
+      position: relative;
+      top: 0px;
+      left: 0px; }
+      div#tmpl_footer ul li {
+        white-space : nowrap;
+        float       : none;
+        display     : block;
+	margin-bottom: 5px;
+      }
+
+        div#tmpl_footer ul li a {
+          display : block;
+	font-size: 14px;
+          padding : 10px 0;
+        }
+        div#tmpl_footer ul li a:link,
+        div#tmpl_footer ul li a:visited
+        {
+          color : #fff;
+        }
+
+    div#tmpl_footer div#tmpl_globalHome {
+      position   : relative;
+      top        : 0px;
+      left       : 0px;
+      margin     : 20px 0px 0px 0px;
+    }
+      div#tmpl_footer div#tmpl_globalHome a {
+        display : block;
+      }
+
+
+  div#tmpl_copyright {
+    position    : relative;
+    margin      : 20px 0 0;
+    top         : 0;
+  }
+
+  #tmpl_main {
+    max-width: 640px;
+    min-width: 320px;
+    width: 100%;
+  }
+
+  ul#tmpl_util #tmpl_aboutSony {
+      margin-right : 0px;
+  }
+
+
+
+
+/* add */
+
+
+
+#nav_list{
+	font-size: 10px;
+	
+	}
+	
+#tmpl_header #nav_list li{
+	  float: left;
+  margin-right: 20px;
+  color: #FFF;
+  height: 40px;
+  padding: 0px 15px;
+}
+
+
+#tmpl_header #nav_list .hotel_list{
+	background:#333;
+}
+
+
+#tmpl_header #nav_list li span{
+    line-height: 39px;
+		  display: block;
+}
+
+
+#tmpl_header_wrapper #tmpl_header #nav_in #tmpl_util #tmpl_aboutSonyHome .v_sp {
+	display:none;
+	}
+
+.v_hotel{
+	display:block;
+	}
+	
+#reso{
+	float:left;
+	width:50%;
+	}
+	
+#inn{
+	float:left;
+	width:50%;
+	}			
+
+
+
+#tmpl_util #tmpl_aboutSonyHome #reso .btn_reso {
+  background-color: #1B1B1B;
+  border-top: 1px solid #2D2D2D;
+  border-bottom: 1px solid #000000;
+}
+
+
+#tmpl_header_wrapper #tmpl_header #nav_in #tmpl_util #tmpl_aboutSonyHome #reso .btn_reso:hover {
+  background-color: #420000;
+}
+
+
+
+
+
+
+#tmpl_util #tmpl_aboutSonyHome #reso .btn_inn {
+  background-color: #1B1B1B;
+  border-top: 1px solid #2D2D2D;
+  border-bottom: 1px solid #000000;
+}
+
+#tmpl_header_wrapper #tmpl_header #nav_in #tmpl_util #tmpl_aboutSonyHome #reso .btn_inn:hover {
+  background-color:#022673;
+}
+
+
+#tmpl_util #tmpl_aboutSonyHome #reso .btn_spa {
+  background-color: #1B1B1B;
+  border-top: 1px solid #2D2D2D;
+  border-bottom: 1px solid #000000;
+}
+	
+#tmpl_header_wrapper #tmpl_header #nav_in #tmpl_util #tmpl_aboutSonyHome #reso .btn_spa:hover {
+  background-color:#694000;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+
+#content{
+	max-width:100%;
+	  font-size: 100%;
+	}	 
+	 
+#form span.req {
+	line-height: 0;
+}
+#form #form_table th, #form #form_table td {
+	display: list-item;
+	list-style-type: none;
+	border: none;
+	font-size: 85.7142857143%;
+}
+#form #form_table th {
+	width: 100%;
+	border-bottom: 1px solid #CCC;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	  margin-top: 50px;
+}
+#form #form_table td {
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 21px;
+}
+
+#form input[type="text"], #form textarea {
+  width: 98%;
+}
+
+
+#form #form_table th {
+	padding: 10px 0;
+
+}
+#form #form_table td {
+	padding: 10px 0;
+}
+
+#member_box{
+width:100%;
+	}
+
+
+#info_box ul li {
+  width: 100%;
+  float: none;
+  margin-right: 0;
+}
+
+#info_box ul{
+  margin: 0;
+  padding: 0;
+}
+
+#info_box ul li p {
+height:auto;
+}
+
+.member_login {
+    width: 95%;
+    float: none;
+    background-color: #EEE;
+    border: 1px solid #ccc;
+    height: auto;
+    margin: 0 auto;
+}
+
+.member_login table{
+	width:100%;
+	}
+
+
+.t_gray {
+  background-color: #F0F0F0;
+  padding: 10px;
+}
+
+
+#content img{
+	width:100%;
+	}
+
+
+
+#about_logout{
+    width: 93%;
+	}	
+
+#about_logout p{
+    margin: 0;
+    line-height: 1.2em;
+    display: block;
+    padding-top: 5px;
+	}
+	
+#about_logout span{
+    display:block;
+	margin:0;
+	}	
+	  
+	  #nav_list li img{
+		 width:auto; 
+		  }
+	
+.v_hotel{
+	display:none;
+	}	
+	
+		  
+#tmpl_header_wrapper #tmpl_header #nav_in #tmpl_util #tmpl_aboutSonyHome .v_sp {
+display:block;
+}	
+	
+#reso{
+	float:none;
+	width:100%;
+	}
+	
+#inn{
+	float:none;
+	width:100%;
+	}	
+	
+#tmpl_header #nav_list li {
+    padding:0;
+}	  
+
+}
+
+
+/* ==========================================================================
+   Remodal's necessary styles
+   ========================================================================== */
+
+/* Hide scroll bar */
+
+html.remodal-is-locked {
+  overflow: hidden;
+
+  -ms-touch-action: none;
+  touch-action: none;
+}
+
+/* Anti FOUC */
+
+.remodal,
+[data-remodal-id] {
+  display: none;
+}
+
+/* Necessary styles of the overlay */
+
+.remodal-overlay {
+  position: fixed;
+  z-index: 9999;
+  top: -5000px;
+  right: -5000px;
+  bottom: -5000px;
+  left: -5000px;
+
+  display: none;
+}
+
+/* Necessary styles of the wrapper */
+
+.remodal-wrapper {
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  display: none;
+  overflow: auto;
+
+  text-align: center;
+
+  -webkit-overflow-scrolling: touch;
+}
+
+.remodal-wrapper:after {
+  display: inline-block;
+
+  height: 100%;
+  margin-left: -0.05em;
+
+  content: "";
+}
+
+/* Fix iPad, iPhone glitches */
+
+.remodal-overlay,
+.remodal-wrapper {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* Necessary styles of the modal dialog */
+
+.remodal {
+  position: relative;
+
+  outline: none;
+
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+.remodal-is-initialized {
+  /* Disable Anti-FOUC */
+  display: inline-block;
+}
+
+
+
+
+/* puplic */
+
+
+#tmpl_header_wrapper.puplic {
+  background-color: #112750 !important;
+  font-family: "Meiryo","Noto Sans Japanese", sans-serif;
+}
+#tmpl_header_wrapper.puplic > .tmpl_header_border {
+  border-bottom: 2px solid #263d66;
+  background-color: #fff;
+  padding: 0 10px;
+}
+#tmpl_header_wrapper.puplic > .tmpl_header_border > #nav_list {
+  position: relative;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto; padding: 0 44px 15px 0;
+  background-color: #fff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#tmpl_header_wrapper.puplic > .tmpl_header_border > #nav_list > a > img {
+  width: auto;
+  border: none;
+  vertical-align: top;
+}
+#tmpl_header_wrapper.puplic > .tmpl_header_border > #nav_list > #tmpl_utilityOpen {
+  position: absolute;
+  top: 32px; right: 0;
+  width: 34px; height: 26px;
+  overflow: hidden;
+  z-index: 99999;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#tmpl_header_wrapper.puplic > #tmpl_util {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: none;
+}
+#tmpl_header_wrapper.puplic > #tmpl_util:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+#tmpl_header_wrapper.puplic > #tmpl_util > .left, #tmpl_util > .right {
+  width: 50%;
+  margin: 1px 0 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#tmpl_header_wrapper.puplic > #tmpl_util > .left {
+  float: left;
+  padding-right: 1px;
+}
+#tmpl_header_wrapper.puplic > #tmpl_util > .right {
+  float: left;
+}
+#tmpl_header_wrapper.puplic > #tmpl_util > ul {
+  list-style: none;
+  padding: 0;margin: 0;
+}
+#tmpl_header_wrapper.puplic > #tmpl_util > ul > li {
+  background-color: #263d66;
+  margin: 0 0 1px 0;padding: 0;
+}
+
+#tmpl_header_wrapper.puplic > #tmpl_util > ul > li > a{
+  font-size: 11px;line-height: 16px;color: #fff;
+  font-family: "Meiryo","Noto Sans Japanese", sans-serif;
+  text-decoration: none;
+  display: block;
+  padding: 19px 25px;
+}
+
+
+
+
+/* dormyinn */
+
+#tmpl_header_wrapper.dormyinn_header > .tmpl_header_border > #nav_list > p {
+  font-size: 10px; line-height: 14px; color: #000; 
+  margin: 0; padding: 7px 0 8px 0;
+  font-family: "Meiryo","Noto Sans Japanese", sans-serif;
+}
+#tmpl_header_wrapper.dormyinn_header > .tmpl_header_border > #nav_list > .tmpl_close {
+  background-image: url("/common/img/menu_open.png");
+}
+#tmpl_header_wrapper.dormyinn_header > .tmpl_header_border > #nav_list > .tmpl_open {
+  background-image: url("/common/img/menu_close.png");
+}
+#tmpl_header_wrapper.dormyinn_header > #tmpl_util > ul > li:hover {
+  background-color: #2f4a79;
+}
+
+
+
+
+
+
+/* resort */
+
+#tmpl_header_wrapper.resort_header > .tmpl_header_border > #nav_list {
+  padding: 25px 0;
+}
+#tmpl_header_wrapper.resort_header > .tmpl_header_border {
+  border-bottom: 1px solid #dcd3a8;
+}
+#tmpl_header_wrapper.resort_header {
+  background-color: #ede4b7 !important;
+}
+#tmpl_header_wrapper.resort_header > #tmpl_util > ul > li {
+  background-color: #f5edc5;
+}
+#tmpl_header_wrapper.resort_header > #tmpl_util > ul > li > a {
+  color: #444 !important;
+  padding: 22px 21px 20px
+}
+#tmpl_header_wrapper.resort_header  > #tmpl_util > ul > li:hover {
+  background-color: #fff8d5;
+}
+#tmpl_header_wrapper.resort_header > .tmpl_header_border > #nav_list > .tmpl_close {
+  background-image: url("/common/img/resort_menu_open.png");
+}
+#tmpl_header_wrapper.resort_header > .tmpl_header_border > #nav_list > .tmpl_open {
+  background-image: url("/common/img/resort_menu_close.png");
+}
+#tmpl_header_wrapper.resort_header > .tmpl_header_border > #nav_list > #tmpl_utilityOpen {
+  top: 29px;
+}
+
+
+@media screen and (max-width: 640px) {
+  #tmpl_header_wrapper.puplic > #tmpl_util > ul > li > a {
+    font-size: 14px;
+  }
+  #tmpl_header_wrapper.puplic > .tmpl_header_border > #nav_list > p {
+    display: none;
+  }
+  #tmpl_header_wrapper.puplic > .tmpl_header_border {
+    padding: 14px 14px 12px 14px;
+  }
+  #tmpl_header_wrapper.puplic > .tmpl_header_border > #nav_list {
+    padding: 0;
+  }
+  #tmpl_header_wrapper.puplic > .tmpl_header_border > #nav_list > #tmpl_utilityOpen {
+    top: 9px;
+  }
+  #tmpl_header_wrapper.puplic > #tmpl_util > .left,  #tmpl_header_wrapper > #tmpl_util > .right  {
+    float: none;
+    padding-right: 0px;
+  }
+ 
+  #tmpl_header_wrapper.puplic > #tmpl_util > .left, #tmpl_util > .right {
+    width: auto;
+  }
+  #tmpl_header_wrapper.puplic > #tmpl_util > ul > li{
+    margin: 1px 0 0 0;
+  }
+  #tmpl_header_wrapper.dormyinn_header > #tmpl_util > ul > li > a{
+    padding: 16px 14px;
+    
+  }
+  #tmpl_header_wrapper.puplic {
+    padding-bottom: 1px; 
+  }
+
+
+
+  /* resort SP */
+  #tmpl_header_wrapper.resort_header > .tmpl_header_border > #nav_list {
+    padding: 6px 0;
+  }
+  #tmpl_header_wrapper.resort_header > .tmpl_header_border > #nav_list > #tmpl_utilityOpen {
+  top: 8px;
+}
+}

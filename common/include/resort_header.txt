@@ -1,0 +1,18 @@
+<div id="tmpl_header_wrapper" class="puplic resort_header">
+	<div class="tmpl_header_border">
+		<div id="nav_list">
+			<a href="/resort/"><img src="/common/img/resort_logo.png" alt="共立リゾート KYORITSU RESORT"></a>
+			<a href="#" id="tmpl_utilityOpen" class="tmpl_close"></a>
+		</div>
+	</div>
+	<div id="tmpl_util">
+		<ul class="left">
+			<li><a href="https://renewal.hotespa.net/resort/" target="_blank">共立リゾート　トップ</a></li>
+			<li><a href="https://renewal.hotespa.net/resort/hotellist/" target="_blank">共立リゾート　施設一覧</a></li>
+		</ul>
+		<ul class="left">
+			<li><a href="https://member.kyoritsugroup.com/mypage/update?cid=C03" target="_blank">会員登録情報の確認・変更</a></li>
+			<li><a href="https://renewal.hotespa.net/dormyinn/" target="_blank">dormyinn　トップ</a></li>
+		</ul>
+	</div>
+</div>

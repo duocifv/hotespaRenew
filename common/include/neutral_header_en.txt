@@ -1,0 +1,21 @@
+<div id="tmpl_header_wrapper">
+<div id="tmpl_header">
+<ul id="nav_list">
+<li><a href="https://renewal.hotespa.net/dormyinn/english/" ><img src="/common/img/nav_logo_pc.png" alt="HOTESPA.net" width="170" height="40">
+</a></li>
+</ul>
+
+<div id="nav_in">
+<a href="#tmpl_globalNavi_container" id="tmpl_utilityOpen" class="tmpl_close" >
+<span id="tmpl_utilityOpenMark"><img src="/common/img/menu_neutral_en.png" alt="開く" width="160" height="80" title="" data-open="開く" data-close="閉じる"></span></a>
+<ul id="tmpl_util">
+<li class="tmpl_util_sml_border tmpl_open" id="tmpl_aboutSonyHome" style="display: inline-block;">
+<div id="reso">
+<a href="https://renewal.hotespa.net/resort/" class="btn_reso" target="_blank"><span>KYORITSU RESORT</span></a>
+<a href="https://renewal.hotespa.net/dormyinn/english/" class="btn_inn" target="_blank"><span>Dormy Inn</span></a>
+</div>
+</li>
+</ul>
+</div><!--nav_in-->
+</div>
+</div>

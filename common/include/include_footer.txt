@@ -1,0 +1,7 @@
+
+<div id="footer">
+<div class="footer_main" >
+<a href="http://www.kyoritsugroup.co.jp/" target="_blank"><img src="/rule/image_common/footer/kyoritsugroup_logo.gif" alt="共立メンテナンス" width="231" height="28" border="0"></a>
+<p>Copyright &#9400; 2017 kyoritsugroup.co.jp All rights reserved.</p>
+</div>
+</div>

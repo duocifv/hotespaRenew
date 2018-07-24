@@ -1,0 +1,241 @@
+/* =======================================  */ 
+         /* BOOKING ROOM HOTESPA */
+/* =======================================  */ 
+    
+    
+    #bookingroom {
+        width: 130px;
+        height: 39px;
+        padding: 0 5px;
+        background: #fff;
+    }
+   
+    #bookingroom > li, #bookingroom > li > input {
+        font-size: 14px;
+        padding: 0;
+        margin: 0;
+        vertical-align: top;
+        border: none;
+        height: 39px;
+    }
+    #bookingroom > li {
+        display: inline-block;
+        position: relative;
+        *zoom:1;
+        *display: inline;
+        position: relative;
+        margin-right: -4px;
+        background-color: transparent;
+    } 
+    #bookingroom > li > input {
+        color: #000;
+        line-height: 39px;
+        text-align: right;
+        border: none;
+        background-color: transparent;
+        position: relative;
+        outline: 0;
+        width: 100%;
+        height: 39px;
+        text-align: left;
+        z-index: 1;
+        margin-left: -4px;
+    }
+
+    #bookingroom > li.year {
+        width: 46px;
+        height: 39px;
+    }
+    #bookingroom > li.month {
+        width: 31px;
+        height: 39px;
+    }
+    #bookingroom > li.day {
+        width: 31px;
+        height: 39px;
+    }
+    #bookingroom > li > span {
+        color: #000;
+        position: absolute;
+        top: 9px;
+        right: -0px;
+        width: 14px;
+        height: 39px;
+        border: none;
+        text-align: left;
+        z-index: 0;
+        display: block;
+        font: 13.3333px Arial;
+    }
+    #bookingroom > li > input:focus { 
+        font-weight: bold;
+    }
+    
+/* =======================================  */ 
+                /* END CODE */
+/* =======================================  */ 
+
+
+
+
+   
+    /* ==================================*/
+            /* CALENDER CSS */
+    /* ==================================*/
+    
+    
+    
+    .calendar_css {
+        width: 250px !important;
+    }
+    .calendar_style {
+        padding: .2em;
+        border-radius: 5px;
+        border: 1px solid #dfd9c3;
+        background: #f5f3e5;
+        color: #312e25;
+    }
+    .calendar_style .tbl_title{
+        width: 100%; 
+        border-radius: 5px;
+        background: #2f532f;
+        font-family: segoe ui,Arial,sans-serif;
+        font-size: 1.1em;
+        padding: 7px;
+    }
+    
+    .calendar_style .tbl_text {
+        width: 100%;
+        font-weight: bold;
+        padding: .5em .3em  .3em !important;
+        border-collapse: separate !important;
+    }
+    .calendar_style .tbl_text td {
+        color: #312e25;
+        font-size: 14px;
+        padding: 2px 0px 2px 0px;
+        font-weight: bold;
+        text-align: center;
+        font-family: Lucida Grande,Lucida Sans,Arial,sans-serif;
+    
+    }
+    .calendar_style .tbl_cel {
+        width: 100%;
+        background-color: #f5f3e5;
+        border-collapse: separate !important;
+        border-spacing: 2px  !important;
+    }
+    
+    
+    .calendar_style .cell {
+        background: #dfeffc url("http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/redmond/images/ui-bg_flat_55_fbec88_40x100.png") 50% 50% repeat-x;
+        font-weight: bold;
+        color: #2e6e9e;
+    }
+  
+    
+    .calendar_style .btn_today {
+        font-size: 15px;
+        font-family: Lucida Grande,Lucida Sans,Arial,sans-serif;
+        color: #fff;
+        padding: 4px 0px 2px 0px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .calendar_style .btn_close {
+        font-size: 12px;
+        width: 20px;
+    }
+    .calendar_style .cancel {
+        width: 20px;
+        height: 20px;
+        display: block;
+        background-image: url("../../src/dynimg/cancel.png");
+        background-repeat: no-repeat;
+        background-position:  center center;
+    }
+    .calendar_style .cancel:hover {
+         background-image: url("../../src/dynimg/cancel_hover.png");
+        
+    }
+    .calendar_style .btn_prev {
+        color: #333333;
+        padding: 8px 0px 4px 0px;
+        text-align: center;
+        font-weight: bold;
+        width: 30px;
+        height: 22px;
+        background-image: url("../../src/dynimg/pre.png")!important;
+        background-repeat: no-repeat !important;
+        background-position:  center center !important;
+    }
+    .calendar_style .btn_next {
+        color: rgb(51, 51, 51);
+        padding: 8px 0px 4px 0px;
+        font-weight: bold;
+        cursor: pointer;
+        width: 30px;
+        height: 22px;
+        background-image: url("../../src/dynimg/next.png")!important;
+        background-repeat: no-repeat !important;
+        background-position:  center center !important;
+    }
+    .calendar_style .btn_prev:hover , .calendar_style .btn_next:hover {
+        opacity: .6;
+    }
+    
+    .calendar_style .tbl_cel td {
+        font-size: 13px;
+        padding: 3px;
+        font-family: segoe ui,Arial,sans-serif;
+        font-weight: bold;
+    }
+    
+    .calendar_style .enable {
+        border: 1px solid #718a5d;
+        text-align: center;
+        font-weight: bold !important;
+        background: #718a5d url("../../../images/ui-bg_highlight-hard_95_cccccc_1x100.png") 50% 50% repeat-x;
+        color: #fff !important;
+    }
+    .calendar_style .enable:hover {
+        border: 1px solid #327E04;
+        background: #2d4a2d url(images/ui-bg_highlight-soft_25_2d4a2d_1x100.png) 50% 50% repeat-x !important;
+       
+    }
+    
+    .calendar_style .normal {
+     
+        border: 1px solid #718a5d;
+        background: #718a5d url("../../../images/ui-bg_highlight-hard_95_cccccc_1x100.png") 50% 50% repeat-x;
+        font-weight: bold;
+        color: #fff !important;
+        opacity: .7;
+        font-weight: bold !important;
+    }
+    .calendar_style .normal:hover { 
+        background: #718a5d url("../../../images/ui-bg_highlight-hard_95_cccccc_1x100.png") 50% 50% repeat-x !important;
+    }
+    .calendar_style .unable {
+            background: url("../../../src/dynimg/enable.png");
+            border: 1px solid #e9f2f8;
+            background: #718a5d url("../../../images/ui-bg_highlight-hard_95_cccccc_1x100.png") 50% 50% repeat-x !important;
+            opacity: .35;
+            color: #fff !important;
+            font-weight: bold !important;
+            border: 1px solid #718a5d;
+        }
+    .calendar_style .active {
+        font-weight: bold !important;
+        border: 1px solid #2d4a2d;
+        background: #babea9 !important;
+        color: #363636 !important;
+    }
+    
+    
+    /* ==================================*/
+            /* END CALENDER */
+    /* ==================================*/
+    
+    
+

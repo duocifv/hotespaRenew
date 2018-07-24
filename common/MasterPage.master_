@@ -1,0 +1,263 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="Com.Fujitsu.Hotespa.Web.User.Common.MasterPage" %>
+
+<%@ Register Assembly="WebFramework" Namespace="Com.Fujitsu.Hotespa.WebFramework.UI.Control.Template" TagPrefix="wfw" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server" id="head">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+<%--以下の定義は、 MasterPage.master.vbにて定義
+    <meta name="description" content="ゆったり過ごせる、コンドミニアム形式のリゾートホテル。至るところに心配りを施した、住む感覚のビジネスホテル。こだわりの「癒しの湯」。HOTEL&amp;SPAはそんなリゾートホテル、ビジネスホテル、スパをご案内します。" />
+    <meta name="keywords" content="ホテル,リゾートホテル,ビジネスホテル,スパ,温泉" />
+--%>
+    <link href="../css/font/default.css" rel="stylesheet" type="text/css" media="screen, print" title="default" />
+    <link href="../css/font/large.css" rel="alternate stylesheet" type="text/css" media="screen, print" title="large" />
+    <link href="../css/font/small.css" rel="alternate stylesheet" type="text/css" media="screen, print" title="small" />   
+    <link href="../js/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" media="screen" />
+
+    <link href="../css/form_ext.css" rel="stylesheet" type="text/css" media="screen, print" />
+  
+    <script type="text/javascript" src="../js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="../js/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+    <script type="text/javascript" src="../js/fancybox/jquery.fancybox-1.3.4.js"></script>
+
+    <script type="text/javascript" src="../js/base.js"></script>
+    <script type="text/javascript" src="../js/styleswitcher.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/form.js"></script>
+    <script type="text/javascript" src="../js/swfobject.js"></script>
+
+    <script type="text/javascript" src="../js/ext.js"></script>
+    
+    <script type="text/javascript" src="../YumeguriClub/common/js/rollover2.js"></script>
+
+    <script type="text/javascript">
+    function init() {
+      if ($.browser.msie && $.browser.version == 6) {
+        $("#wrapper").css("display", "inline");
+        $("#side").css("width"    , "166px");
+        $("#side").css("min-width", "166px");
+      }
+    }
+    </script>
+    <!-- google-analyticsコード設置 開始 -->
+    <script type="text/javascript" src="//www.google.com/js/gweb/analytics/autotrack.js"></script>
+    <script type="text/javascript" src="/js/ga-import.js"></script>
+    <!-- google-analyticsコード設置 終了 -->
+
+</head>
+<body onload="init();">
+    <form id="form" runat="server" autocomplete="off">
+
+<div id="wrapper">
+
+    <div id="container">
+    <div id="headerL" runat="server">
+      <div id="stage"> 
+        <div id="header" class="">
+          <div runat="server" id="nomal" visible ="true" class="">
+            <ul class="hd_member">
+              <li class="us">ようこそ <wfw:Label ID="lblLoginName" runat="server" Text="○○ ○○"></wfw:Label> さん　<wfw:Label ID="lblDate" runat="server" Text=""></wfw:Label></li>
+              <div runat="server" id="hd_member_nomal" visible ="true">
+		            <li class="bt" runat="server" id="liログイン">ご予約前に<wfw:LinkButton ID="lbtnログイン" runat="server" Text="ログイン"></wfw:LinkButton></li>
+		            <li class="bt" runat="server" id="li新規会員"><wfw:LinkButton ID="lbtn新規会員" runat="server" Text="新規会員登録へ"></wfw:LinkButton></li>
+		            <li class="bt" runat="server" id="li法人ログイン">法人の方は<wfw:LinkButton ID="lbtn法人ログイン" runat="server" Text="こちらから"></wfw:LinkButton></li>           
+              </div>
+              <li class="bt" runat="server" id="liログアウト"><wfw:LinkButton ID="lbtnログアウト" runat="server" Text="ログアウト"></wfw:LinkButton></li>
+            </ul> 
+<%-- ■ドーミーイン用■ --%>
+            <p runat="server" id="logoBiz" visible="false" class="hd_logo"><img src="../image/base/hd_logo_biz.gif" alt="HOTESPA.net" width="148" height="22" /></p>
+            <ul runat="server" id="ulBiz1" visible="false" class="hd_gnavi">
+                <li class="hd"><a runat="server" id="dbiz" href=""><img src="../image/base/hd_gn_biz_s.png" alt="ドーミーイン" width="176" height="37" /></a></li>
+                <li><a runat="server" id="dres" href=""><img src="../image/base/hd_gn_res_n.png" alt="癒しの湯宿はこちら" width="170" height="30" /></a></li>
+                <li><a runat="server" id="dspa" href=""><img src="../image/base/hd_gn_spa_n.png" alt="SPAはこちら" width="122" height="30" /></a></li>
+                <li><a runat="server" id="dgbiz" href=""><img src="../image/base/hd_gn_abiz_n.png" alt="ドーミーインとは" width="122" height="30" /></a></li>
+            </ul>
+            <ul runat="server" id="ulBiz2" visible="false" class="hd_navi">
+                <li><a runat="server" id="dnv01" href=""><img src="../image/base/hd_nv_biz_01.gif" alt="施設一覧" width="106" height="26" /></a></li>
+                <li><a runat="server" id="dnv02" href=""><img src="../image/base/hd_nv_biz_02.gif" alt="ご利用ガイド" width="126" height="26" /></a></li>
+                <li><a runat="server" id="dnv03" href=""><img src="../image/base/hd_nv_biz_03.gif" alt="空室検索" width="105" height="26" /></a></li>
+                <li><a runat="server" id="dnv04" href=""><img src="../image/base/hd_nv_biz_04.gif" alt="予約の確認・変更" width="145" height="26" /></a></li>
+                <li><a runat="server" id="dnv05" href=""><img src="../image/base/hd_nv_biz_05.gif" alt="Q&amp;A" width="89" height="26" /></a></li>
+                <li><a runat="server" id="dnv06" href=""><img src="../image/base/hd_nv_biz_06.gif" alt="会員登録情報の確認・変更" width="179" height="26" /></a></li>
+            </ul>
+
+<%-- ■癒しの湯宿用■ --%>
+            <p runat="server" id="logoRes" visible="false" class="hd_logo"><img src="../image/base/hd_logo_res.gif" alt="HOTESPA.net" width="148" height="22" /></p>
+            <ul runat="server" id="ulRes1" visible="false" class="hd_gnavi">
+                <li class="hd"><a runat="server" id="rres" href=""><img src="../image/base/hd_gn_res_s.png" alt="癒しの湯宿" width="176" height="37" /></a></li>
+                <li><a runat="server" id="rbiz" href=""><img src="../image/base/hd_gn_biz_n.png" alt="ドーミーインはこちら" width="170" height="30" /></a></li>
+                <li><a runat="server" id="rspa" href=""><img src="../image/base/hd_gn_spa_n.png" alt="SPAはこちら" width="122" height="30" /></a></li>
+                <li><a runat="server" id="rgres" href=""><img src="../image/base/hd_gn_ares_n.png" alt="癒しの湯宿とは" width="122" height="30" /></a></li>
+            </ul>
+            <ul runat="server" id="ulRes2" visible="false" class="hd_navi">
+                <li><a runat="server" id="rnv01" href=""><img src="../image/base/hd_nv_res_01.gif" alt="施設一覧" width="106" height="26" /></a></li>
+                <li><a runat="server" id="rnv02" href=""><img src="../image/base/hd_nv_res_02.gif" alt="ご利用ガイド" width="126" height="26" /></a></li>
+                <li><a runat="server" id="rnv03" href=""><img src="../image/base/hd_nv_res_03.gif" alt="空室検索" width="105" height="26" /></a></li>
+                <li><a runat="server" id="rnv04" href=""><img src="../image/base/hd_nv_res_04.gif" alt="予約の確認・変更" width="145" height="26" /></a></li>
+                <li><a runat="server" id="rnv05" href=""><img src="../image/base/hd_nv_res_05.gif" alt="Q&amp;A" width="89" height="26" /></a></li>
+                <li><a runat="server" id="rnv06" href=""><img src="../image/base/hd_nv_res_06.gif" alt="会員登録情報の確認・変更" width="179" height="26" /></a></li>
+            </ul>
+
+<%-- ■その他用■ --%>
+            <p runat="server" id="logoOth" visible="false" class="hd_logo"><img src="../image/base/hd_logo_biz.gif" alt="HOTESPA.net" width="148" height="22" /></p>
+            <ul runat="server" id="ulOth1" visible="false" class="hd_gnavi">
+                <li><a runat="server" id="ores" href=""><img src="../image/base/hd_gn_res_o.png" alt="癒しの湯宿はこちら" width="170" height="30" /></a></li>
+                <li><a runat="server" id="obiz" href=""><img src="../image/base/hd_gn_biz_o.png" alt="ドーミーインはこちら" width="170" height="30" /></a></li>
+                <li><a runat="server" id="ospa" href=""><img src="../image/base/hd_gn_spa_o.png" alt="SPAはこちら" width="122" height="30" /></a></li>
+            </ul>
+            <ul runat="server" id="ulOth2" visible="false" class="hd_navi">
+                <li><a runat="server" id="onv01" href=""><img src="../image/base/hd_nv_01.gif" alt="施設一覧" width="106" height="26" /></a></li>
+                <li><a runat="server" id="onv02" href=""><img src="../image/base/hd_nv_02.gif" alt="ご利用ガイド" width="126" height="26" /></a></li>
+                <li><a runat="server" id="onv03" href=""><img src="../image/base/hd_nv_03.gif" alt="空室検索" width="105" height="26" /></a></li>
+                <li><a runat="server" id="onv04" href=""><img src="../image/base/hd_nv_04.gif" alt="予約の確認・変更" width="145" height="26" /></a></li>
+                <li><a runat="server" id="onv05" href=""><img src="../image/base/hd_nv_05.gif" alt="Q&amp;A" width="89" height="26" /></a></li>
+                <li><a runat="server" id="onv06" href=""><img src="../image/base/hd_nv_06.gif" alt="会員登録情報の確認・変更" width="179" height="26" /></a></li>
+            </ul>
+            <div class="hd_search">
+                <wfw:TextBox ID="txtサイト内検索" runat="server" CssClass="word"></wfw:TextBox>
+                <wfw:ImageButton ID="ibtn検索" runat="server" ImageUrl="../image/base/hd_search.png" AlternateText="検索" />
+            </div>
+            <div class="hd_fsize">
+                <img src="../image/base/hd_fontsize.png" alt="文字サイズ" width="113" height="20" usemap="#fsizeMap" />
+                <map id="fsizeMap" name="fsizeMap">
+                <area shape="rect" coords="58,5,73,20" href="javascript:;" alt="小" onclick="setActiveStyleSheet('small'); return false;" />
+                <area shape="rect" coords="75,2,93,20" href="javascript:;" alt="中" onclick="setActiveStyleSheet('default'); return false;" />
+                <area shape="rect" coords="95,0,115,20" href="javascript:;" alt="大" onclick="setActiveStyleSheet('large'); return false;" />
+                </map>
+            </div>
+          </div>
+          
+<%-- ■湯めぐり用■ --%>          
+          <div runat="server" id="yumeguri" visible ="false">                      
+            <div id="block_logo"><img src="../YumeguriClub/common/img/yu_logo.png" alt="湯めぐり倶楽部" width="154" height="97" border="0" />
+            </div><!--#block_logo end-->
+            <div id="block_control">
+              <div id="block_control_upper">             
+                <ul class="hd_member">
+                  <li class="us"><wfw:Label ID="lblLoginCoName" runat="server" Text="○○ ○○"></wfw:Label>　<wfw:Label ID="lblCoDate" runat="server" Text=""></wfw:Label></li>
+                  <li class="bt" runat="server" id="li湯めぐりログアウト"><wfw:LinkButton ID="lbtn湯めぐりログアウト" runat="server" Text="ログアウト"></wfw:LinkButton></li>
+                </ul>
+                <div id="control_upper_co">
+                <a href="http://www.kyoritsugroup.co.jp" target="_blank"><img src="../YumeguriClub/common/img/co_btn.png" alt="株式会社 共立メンテナンス" width="107" height="13" border="0" /></a>
+                </div>
+                <div id="control_upper_fs">
+                  <ul id="fontSize">
+                  <li>
+                  <img src="../YumeguriClub/common/img/btn_tx_s.jpg" alt="小" width="26" height="28" border="0" usemap="#fsizeMap1" />
+                  <map id="fsizeMap1" name="fsizeMap1">
+                  <area shape="rect" coords="0,0,28,28" href="javascript:;" alt="小" onclick="setActiveStyleSheet('small'); return false;" />
+                  </map>
+                  </li>
+                  <li>
+                  <img src="../YumeguriClub/common/img/btn_tx_m.jpg" alt="中" width="26" height="28" class="changeBtn" border="0" usemap="#fsizeMap2" />
+                  <map id="fsizeMap2" name="fsizeMap2">
+                  <area shape="rect" coords="0,0,28,28" href="javascript:;" alt="中" onclick="setActiveStyleSheet('default'); return false;" />
+                  </map>
+                  </li>
+                  <li>
+                  <img src="../YumeguriClub/common/img/btn_tx_l.jpg" alt="大" width="26" height="28" class="changeBtn" border="0" usemap="#fsizeMap3" />
+                  <map id="fsizeMap3" name="fsizeMap3">
+                  <area shape="rect" coords="0,0,28,28" href="javascript:;" alt="大" onclick="setActiveStyleSheet('large'); return false;" />
+                  </map>
+                  </li>
+                  </ul>
+                </div>
+              </div><!--block_control_upper end-->
+              <div id="control_bottom">
+              <ul class="cf">
+              <li><a runat="server" id="ynv01" href=""><img src="../YumeguriClub/common/img/nav1_home_rollout.png" alt="ホーム" width="128" height="60" border="0" /></a></li>
+              <li><a runat="server" id="ynv02" href=""><img src="../YumeguriClub/common/img/nav2_guide_rollout.png" alt="ご利用ガイド" width="125" height="60" border="0" /></a></li>
+              <li><a runat="server" id="ynv03" href=""><img src="../YumeguriClub/common/img/nav3_search_rollout.png" alt="空室検索" width="125" height="60" border="0" /></a></li>
+              <li><a runat="server" id="ynv04" href=""><img src="../YumeguriClub/common/img/nav4_check_rollout.png" alt="予約の確認変更" width="125" height="60" border="0" /></a></li>
+              <li><a runat="server" id="ynv05" href=""><img src="../YumeguriClub/common/img/nav5_members_rollout.png" alt="会員情報の確認・変更" width="125" height="60" border="0" /></a></li>
+              <li><a runat="server" id="ynv06" href=""><img src="../YumeguriClub/common/img/nav6_contact_rollout.png" alt="お問い合わせ" width="128" height="60" border="0" /></a></li>
+              </ul>
+              </div><!--#control_bottom end-->
+            </div><!--#block_control end-->
+          </div><!--#yumeguri end-->  
+        </div><!-- /#header end-->
+      </div><!-- /#stage end-->
+      </div>
+        <asp:ContentPlaceHolder ID="cphForm" runat="server">
+        </asp:ContentPlaceHolder>
+        <div id="footer">
+            <div id="pagetop">
+                <a href="#wrapper"><img src="../image/footer/ft_pagetop.jpg" alt="ページトップに戻る" width="122" height="17" /></a>
+            </div>
+          <div runat="server" id="nomalFooter" visible ="true" class="">
+            <div class="ft_menu">
+                ｜<a runat="server" id="fres" href="">癒しの湯宿</a>
+                ｜<a runat="server" id="fbiz" href="">ドーミーイン</a>
+                ｜<a runat="server" id="fspa" href="">スパ</a>
+                ｜<a runat="server" id="fnv01" href="">施設一覧</a>
+                ｜<a runat="server" id="fnv02" href="">ご利用ガイド</a>
+                ｜<a runat="server" id="fnv03" href="">空室検索</a>
+                ｜<a runat="server" id="fnv04" href="">予約の確認・変更</a>
+                ｜<a runat="server" id="fnv05" href="">Q&amp;A</a>
+                ｜<a runat="server" id="fnv06" href="">会員登録情報の確認・変更</a>
+                ｜
+            </div>
+            <div class="ft_bg">
+            <ul>
+                <li><a href="../sitemap/index.html">サイトマップ</a></li>
+                <li><a href="../rule/index.html">ご利用規約</a></li>
+                <li><a href="../privacy/index.html">個人情報保護方針</a></li>
+                <li><a href="../company/index.html">会社情報</a></li>
+                <li><a href="http://www.kyoritsugroup.co.jp/06/hotel/index.html" target="_blank">採用情報</a></li>
+            </ul>
+            <address>Copyright &copy; 2012 kyoritsugroup.co.jp All rights reserved.<br />
+            <a href="http://www.kyoritsugroup.co.jp/"><img src="../image/base/ft_logo.gif" alt="共立メンテナンス" width="150" height="28" /></a><br />
+            全国に広がる共立メンテナンスの“癒しの宿”“ドーミーイン”</address>
+            </div>
+	          <div id="lower"> <strong><span>【共立メンテナンスグループの事業案内】</span></strong>
+		          <ul>
+			          <li><a href="http://www.gakuseikaikan.com/" target="_blank">学生寮事業「学生会館GUIDE」</a></li>
+			          <li><a href="http://www.dormy.co.jp/" target="_blank">社員寮事業「ドーミーINFORMATION」</a></li>
+			          <li><a href="http://www.dormy.co.jp/monthly/" target="_blank">社員寮事業（マンスリー）「ドーミーマンスリー」</a></li>
+			          <li><a href="http://www.dormy-jutaku.jp/" target="_blank">受託事業</a></li>
+		          </ul>
+		          <ul>
+			          <li><a href="http://www.refre-f.com/" target="_blank">研修センター事業「リフレフォーラム」</a></li>
+			          <li><a href="http://www.dormy-senior.com/" target="_blank">ウェルネスライフ事業「ドーミーシニア」</a></li>
+			          <li><a href="http://www.domeal.jp/" target="_blank">賃貸マンション「ドミール賃貸」</a></li>
+		          </ul>
+	          </div>
+	        </div>
+          <div runat="server" id="yumeguriFooter" visible ="false" class="">
+            <div class="ft_menu">
+                ｜<a runat="server" id="fynv01" href="">ホーム</a>
+                ｜<a runat="server" id="fynv02" href="">ご利用ガイド</a>
+                ｜<a runat="server" id="fynv03" href="">空室検索</a>
+                ｜<a runat="server" id="fynv04" href="">予約の確認変更</a>
+                ｜<a runat="server" id="fynv05" href="">会員情報の確認・変更</a>
+                ｜<a runat="server" id="fynv06" href="">お問い合せ</a>
+                ｜<a runat="server" id="fynv07" href="">ご利用規約</a>
+                ｜<a runat="server" id="fynv08" href="">個人情報保護方針</a>
+                ｜
+            </div>
+            <div class="ft_bg">
+            <address>Copyright &copy; 2012 kyoritsugroup.co.jp All rights reserved.<br />
+            <a href="http://www.kyoritsugroup.co.jp/"><img src="../image/base/ft_logo.gif" alt="共立メンテナンス" width="150" height="28" /></a>
+            </address>
+            </div>
+          </div>
+        <!-- /#footer --></div>
+
+    <!-- /container --></div>
+
+    <div id="side">
+        <asp:ContentPlaceHolder ID="cphSideForm" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+
+<!-- /wrapper --></div>
+
+    </form>
+</body>
+</html>

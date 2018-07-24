@@ -1,0 +1,257 @@
+@charset "utf-8";
+/* ===================================================================
+CSS information
+ file name  :  default.css
+ style info :  リセット及びbody初期設定 (このスタイルシートは基本的に変更しない)
+=================================================================== */
+/*--- reset */
+html {
+	overflow-y: scroll;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	margin: 0;
+	padding: 0;
+}
+address,caption,cite,code,dfn,em,th,var {
+	font-style: normal;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+caption,th {
+	text-align: left;
+}
+q:before,q:after {
+	content: '';
+}
+object,
+embed {
+	vertical-align: top;
+}
+hr,legend {
+	display: none;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+}
+img,abbr,acronym,fieldset {
+	border: 0;
+}
+li {
+	list-style-type: none;
+}
+
+/* 移植 */
+h1,h2,h3,h4,h5 {
+	margin:0;
+	padding:0;
+	font-style:normal;
+}
+
+ul,li,dl,dt,dd {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+img {
+	border:none;
+}
+
+p {
+	margin:0 0 1em 0;
+}
+
+
+#wrapper {
+	text-align:left;
+	font-size:12px;
+	color:#333333;
+	width:750px;
+	line-height:18px;
+	font-family:"qMmpS Pro W3", "Hiragino Kaku Gothic Pro", "CI", Meiryo, Osaka, "lr oSVbN", "MS PGothic", sans-serif;
+}
+
+.topicPath {
+	height:15px;
+	font-size:10px;
+	padding:8px;
+}
+
+.hdrBar {
+	background:url(../../img/hdr_bg.gif) repeat-x top left;
+	height:46px;
+	width:750px;
+}
+
+.hdrBar h1 {
+	color:#5f2c11;
+	font-size:18px;
+	width:300px;
+	float:left;
+	font-weight:bold;
+	margin:14px 0 0 10px;
+}
+
+.hdrBar p {
+	float:right;
+	margin:12px 10px 0 0;
+}
+
+.flashArea {
+	clear:both;
+}
+
+#main_kani {
+	width: 750px;
+	margin-right: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#LColumn {
+	float:left;
+	line-height:20px;
+	width: 410px;
+	height:383px;
+	background:url(../../img/LColumn_bg.gif) no-repeat top left;
+}
+
+#LColumn .copySub {
+	float:left;
+	width:283px;
+	height:110px;
+}
+
+#LColumn .count {
+	float:left;
+	width:110px;
+	height:110px;
+}
+
+#LColumn .txt01 {
+	clear:both;
+	font-size:12px;
+	padding:13px 0 0 0;
+}
+
+#LColumn .txt02 {
+	font-size:12px;
+	padding:0;
+}
+
+#LColumn .photo01 {
+	float:left;
+}
+
+#LColumn .photo02 {
+	float:right;
+}
+
+#RColumn {
+	float:left;
+	width:327px;
+	height:383px;;
+	background:url(../../img/RColumn_bg.gif) no-repeat top left;
+}
+
+#RColumn p {
+	margin:0;
+}
+
+#RColumn ul {
+	margin-left:26px;
+}
+
+#RColumn ul li {
+	float:left;
+	width:82px;
+	height:57px;
+	padding:4px 0 0 5px;
+	margin:0 0 4px 4px;
+	background:url(../../img/photo_th_bg.png) no-repeat top left;
+
+}
+
+#course {
+	clear:both;
+	background:url(../../img/course_bg.gif) no-repeat 0 58px #fbf9f8;
+	width:688px;
+	height:490px;
+	border-bottom:1px solid #eabeac;
+	border-left:1px solid #eabeac;
+	border-right:1px solid #eabeac;
+	overflow:hidden;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#course .positionBtn {
+	position:relative;
+	top:-38px;
+	left:510px;
+	width:160px;
+	height:20px;
+}
+
+#course .mainTxt {
+	float:left;
+	font-size: 12px;
+	margin:-12px 0 0 0;
+	padding-left:20px;
+	width:373px;
+	line-height: 14px;
+}
+
+#course strong {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+#course .sub {
+	float:left;
+	padding:5px 0 0 45px;
+	width:213px;
+	font-size:10px;
+}
+
+#course .subTitle {
+	text-align:center;
+	margin-bottom:12px;
+	margin-top: 5px;
+}
+
+#course .subTxt {
+	width:211px;
+	height:300px;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+#course .sub .photo {
+	float:right;
+	clear:both;
+	margin:0 0 0 5px;
+	width:130px;
+	height:87px;
+}
+
+
+#course .btn_pos {
+	width: 350px;
+	text-align: right;
+	height: 30px;
+}
+
+
+#stay {
+	clear:both;
+	width: 500px;
+	margin: 20px 0 20px 25px;
+}
+
+
+
+
+

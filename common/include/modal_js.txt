@@ -1,0 +1,28 @@
+<div class="remodal" data-remodal-id="notice" id="modal-area">
+
+<h1>予約の確認・変更</h1>
+
+<div class="remodal_contain">
+
+<div class="remodal_contain-item">
+
+<p><b>2017年11月28日(火)</b>以前に<br />ご予約の方はこちら</p>
+
+<a href="/Rsv/ReservationList.aspx">予約の変更・確認</a>
+
+</div>
+
+<div class="remodal_contain-item modal_btn_bottom">
+
+<p><b>2017年11月29日(水)</b>以降に<br />ご予約の方はこちら</p>
+
+<a href="https://asp.hotel-story.ne.jp/ver3d/ASPY0300.asp?cod1=MIHQ0&cod2=&bcid=C02" target="_blank">予約の変更・確認</a>
+
+</div>
+
+</div>
+
+<a href="#" class="remodal_close_up">閉じる</a>
+
+</div>
+

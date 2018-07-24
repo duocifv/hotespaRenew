@@ -1,0 +1,811 @@
+@charset "utf-8";
+
+
+
+#tab_iyashi{
+	width:300px;
+	float:left;
+	}
+
+
+#tab_dormy{
+	width:300px;
+	margin-left:10px;
+	float:left;
+	}
+
+/* absoluteでタブをタブ切替要素の上へ */
+#mod-tabnav{
+	overflow: hidden;
+	clear: both;
+	position: absolute;
+	top: -50px;
+}
+#mod-tabnav li {
+     margin:0px;
+	 margin-right:10px;
+     float:left;
+     display:inline;
+     font-size:0;
+}
+
+
+#tab-box{
+	position: relative;
+}
+
+#tab-box ul li a img{
+     outline:none;
+     border:none;
+}
+#tab-box .tabBox {
+     display:none;
+     margin-top:160px;
+     margin-bottom:30px;
+	width: 100%;
+
+}
+
+.clearFix:after{
+     display:block;
+     clear:both;
+     height:0;
+     visibility:hidden;
+     content:".";
+     zoom:1;
+}
+/* ほかページからタブへアクセスした時にアンカーの位置をここで調整 */
+#resort, #dormy, {
+     position: relative;
+     padding-top: 220px;
+}
+
+/* IE8*/
+/*#dormy{
+     padding-top: 220px\9;
+}*/
+
+/* 追加*/
+
+
+.mid_body {
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	overflow: hidden;
+	padding-top: 0px;
+	margin-top: -30px;
+}
+
+
+#mid_body_resort {
+	width: 100%;
+	min-width: 950px;
+	background: url(../img/iyashi_bg.jpg) repeat;
+	padding-top: 0;
+	padding-bottom: 250px;
+}
+
+/* IE67ハック */
+　#mid_body_resort {
+	width: 100%;
+	min-width: 950px;
+	background: url(../img/iyashi_bg.jpg) repeat;
+	margin-top: -220px;
+	padding-top: 0;
+}
+
+
+#mid_body_resort_in {
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	overflow: hidden;
+}
+
+#mid_body_dormy {
+	width: 100%;
+	min-width: 950px;
+	background: url(../img/dormy_bg.jpg) repeat;
+	margin-top: 0;
+	padding-top: 0;
+	padding-bottom: 250px;
+}
+
+/* IE67ハック */
+　#mid_body_dormy {
+	width: 100%;
+	min-width: 950px;
+	background: url(../img/dormy_bg.jpg) repeat;
+	margin-top: -220px;
+	padding-top: 0;
+}
+
+
+#mid_body_dormy_in {
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	overflow: hidden;
+}
+
+
+#main_body_resort {
+	width:765px;
+	float: left;
+	margin: 50px 0 0;
+	padding: 0;
+}
+
+#main_body_dormy {
+	width:765px;
+	margin: 50px 0 0;
+	padding: 0;
+	float: left;
+}
+
+/*サイドナビ*/
+
+#side_resort {
+	float: right;
+	width: 160px;
+}
+
+#side_resort ul{
+	margin-bottom:0px;
+	padding: 50px 0 0;
+}	
+	
+#side_resort li{
+	list-style-type: none;
+	height: 40px;
+	display: block;
+}	
+
+
+#side_resort_in {
+	top: 353px;
+	position: fixed;
+	background: url(../img/side_back.png) no-repeat;
+	overflow: hidden;
+} 
+
+
+#side_dormy {
+	float: right;
+	width: 160px;
+	margin: 0;
+	padding: 0;
+	padding: 60px 0 0;
+	position: relative;
+}
+
+#side_dormy_in {
+	padding: 0;
+	position: fixed;
+	background: url(../img/d_side_back.png) no-repeat;
+	top: 353px;
+} 
+
+	
+#side_dormy ul{
+	padding: 50px 0 0;
+	margin-bottom:0px;
+	}	
+	
+#side_dormy li {
+	list-style-type: none;
+	height: 40px;
+	display: block;
+}	
+
+
+
+	
+
+
+.box_1 {
+	background-image: url(../img/white_back.png);
+	height: 263px;
+	width: 243px;
+	float: left;
+	margin-right: 15px;
+	margin-top: 15px;
+}
+
+
+.box_1_clear {
+	margin-right:0;
+}
+
+.box_1 .box_img {
+	height: 158px;
+	width: 210px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+.box_1 .box_btn {
+	width: 210px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15px;
+}
+
+
+
+.box_1 p {
+	font-size: 12px;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.line {
+	display: block;
+	width: 765px;
+	margin-top: 40px;
+}
+
+.small {
+	font-size:9px;
+	font-weight: normal;
+}
+
+
+
+
+
+/*BOX2 共通*/
+
+.d_box{
+	float: left;
+	height: 101px;
+	width: 365px;
+	margin-top:15px;
+}
+
+.d_box{
+	float: left;
+	height: 101px;
+	width: 365px;
+	margin-bottom: 30px;
+}
+
+.r_space{
+	margin-right:30px;
+	
+	}
+
+
+.d_box p {
+	height: 20px;
+	width: 300px;
+	font-size: 12px;
+	padding-left: 80px;
+	line-height: 1.2em;
+}
+
+.d_box_btn {
+	width: 365px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 33px;
+	margin-bottom:0;
+}
+/*BOX2 共通*/
+
+
+
+/*dormy_contents*/
+
+#d_box_wakkanai{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/wakkanai.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_sapporo{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/sapporo.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_sapporo_ax{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/sapporo_ax.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_kitami{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/kitami.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_asahikawa{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/asahikawa.png);
+	background-repeat: no-repeat;
+}
+
+
+#d_box_tomakomai{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/tomakomai.png);
+	background-repeat: no-repeat;
+}
+
+
+#d_box_obihiro{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/obihiro.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_otaru{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/otaru.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_goryoukaku{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/goryoukaku.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_kushirogawa{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/kushirogawa.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_hirosaki{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/hirosaki.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_akita{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/akita.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_sendai{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/sendai.png);
+	background-repeat: no-repeat;
+}
+
+
+#d_box_sendai_ax{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/sendai_ax.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_sendai_eki{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/sendai_eki.png);
+	background-repeat: no-repeat;
+}
+
+
+#d_box_koriyama{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/koriyama.png);
+	background-repeat: no-repeat;
+}
+
+
+#d_box_takasaki{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/takasaki.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_yatsuka{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/yatsuka.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_soga{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/soga.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_meguro{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/meguro.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_asakusa{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/asakusa.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_tokyohatchobori{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/tokyohatchobori.png);
+	background-repeat: no-repeat;
+}
+
+
+#d_box_akihabara{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/akihabara.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_suidobashi{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/suidobashi.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_shibuya{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/shibuya.png);
+	background-repeat: no-repeat;
+}
+
+
+
+#d_box_niigata{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/niigata.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_matsumoto{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/matsumoto.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_kofu{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/kofu.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_mishima{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/mishima.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_toyama{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/toyama.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_kanazawa{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/kanazawa.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_nagoya{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/nagoya.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_mikawaanjo{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/mikawaanjo.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_tsu{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/tsu.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_gifu{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/gifu.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_kakegawa{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/kakegawa.png);
+	background-repeat: no-repeat;
+}
+
+
+#d_box_kyoto{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/kyoto.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_umedahigashi{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/umedahigashi.png);
+	background-repeat: no-repeat;
+}
+
+
+#d_box_nanba{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/nanba.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_shinsaibashi{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/shinsaibashi.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_premium_nanba{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/premium_nanba.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_wakayama{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/wakayama.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_himeji{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/himeji.png);
+	background-repeat: no-repeat;
+}
+
+
+#d_box_kurashiki{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/kurashiki.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_hiroshima{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/hiroshima.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_takamatsu{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/takamatsu.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_shimonoseki{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/shimonoseki.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_matsue{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/matsue.png);
+	background-repeat: no-repeat;
+}
+
+
+#d_box_matsue{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/matsue.png);
+	background-repeat: no-repeat;
+}
+
+
+#d_box_hakata{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/hakata.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_hakatacanal{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/hakatacanal.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_kumamoto{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/kumamoto.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_nagasaki{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/nagasaki.png);
+	background-repeat: no-repeat;
+}
+
+#d_box_kagoshima{
+	height: 76px;
+	width: 365px;
+	background-image: url(../img/kagoshima.png);
+	background-repeat: no-repeat;
+}
+
+
+.dm_link2 {
+	height: 70px;
+	width: 70px;
+	background-color:#0C6;
+}
+
+.dm_link1{
+	height: 25px;
+	width: 280px;
+	background-color: tranceparent;
+	margin-left: 80px;
+}
+.dm_link1 a {
+	display: block;
+	width: 100%;
+}
+
+#txt_list {
+	display: block;
+	float: right;
+	height: 27px;
+	width: 109px;
+	margin-left: 190px;
+	margin-top: 10px;
+}
+
+#txt_list {
+	display: block;
+	height: 27px;
+	width: 109px;
+}
+
+
+#dot_hokkaido {
+	height: 690px;
+	width: 10px;
+	border-left-width: 1px;
+	border-left-style: dotted;
+	border-left-color: #FFF;
+	position: absolute;
+	margin-left: 377px;
+	margin-top: 15px;
+}
+
+#dot_tohoku {
+	height: 395px;
+	width: 10px;
+	border-left-width: 1px;
+	border-left-style: dotted;
+	border-left-color: #FFF;
+	position: absolute;
+	margin-left: 377px;
+	margin-top: 15px;
+}
+
+#dot_kanto {
+	height: 688px;
+	width: 10px;
+	border-left-width: 1px;
+	border-left-style: dotted;
+	border-left-color: #FFF;
+	position: absolute;
+	margin-left: 377px;
+	margin-top: 15px;
+}
+
+
+#dot_tyubu {
+	height: 833px;
+	width: 10px;
+	border-left-width: 1px;
+	border-left-style: dotted;
+	border-left-color: #FFF;
+	position: absolute;
+	margin-left: 377px;
+	margin-top: 15px;
+}
+
+
+#dot_kinki {
+	height: 540px;
+	width: 10px;
+	border-left-width: 1px;
+	border-left-style: dotted;
+	border-left-color: #FFF;
+	position: absolute;
+	margin-left: 377px;
+	margin-top: 15px;
+}
+
+
+#dot_tyugoku {
+	height: 395px;
+	width: 10px;
+	border-left-width: 1px;
+	border-left-style: dotted;
+	border-left-color: #FFF;
+	position: absolute;
+	margin-left: 377px;
+	margin-top: 15px;
+}
+
+#dot_kyusyu {
+	height: 395px;
+	width: 10px;
+	border-left-width: 1px;
+	border-left-style: dotted;
+	border-left-color: #FFF;
+	position: absolute;
+	margin-left: 377px;
+	margin-top: 15px;
+}
+
+	

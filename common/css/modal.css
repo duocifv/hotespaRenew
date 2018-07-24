@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+#remodal_cssOpen{
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.remodal-wrapper .remodal_contain {
+    /* width: 100%; */
+    /* max-width: 700px; */
+    /* background: #fff; */
+    /* padding: 20px; */
+    /* text-align: center; */
+}
+.modal_btn_bottom{
+	margin-bottom: 20px;
+}
+#remodal_cssOpen:target {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s, visibility 0.5s;
+    z-index: 99999;
+}
+#remodal_cssOpen:not(:target) {
+    opacity: 0 !important;
+    visibility: hidden!important;
+    transition: opacity 0.5s, visibility 0.5s!important;
+}
+
+
+a.remodal_close_up2{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.remodal-inner {
+    z-index: 1;
+    width: 100%;
+    max-width: 700px;
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+}

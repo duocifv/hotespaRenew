@@ -1,0 +1,28 @@
+<div id="tmpl_header_wrapper" class="container_min">
+<div id="tmpl_header" >
+<ul id="nav_list" >
+<li><a href="/resort/"><img src="/common/img/nav_logo_pc.png" alt="HOTESPA.net" width="170" height="40">
+<!--<img src="common/img/nav_logo_sp.png" alt="HOTESPA.net" width="170" height="40" class="sp">--></a></li>
+</ul> <!-- /#nav_list -->
+
+<div id="nav_in">
+<a href="#tmpl_globalNavi_container" id="tmpl_utilityOpen" class="tmpl_close"><span id="tmpl_utilityOpenMark"><img src="/common/img/menu_spa.png" alt="開く" width="160" height="80" title="" data-open="開く" data-close="閉じる"></span></a>
+<ul id="tmpl_util">
+<li class="tmpl_util_sml_border tmpl_open" id="tmpl_aboutSonyHome" style="display: inline-block;">
+<div id="reso">
+<!-- <a href="https://renewal.hotespa.net/dormyinn/list/" class="v_sp" target="_blank"><span>施設一覧</span></a> -->
+<a href="https://renewal.hotespa.net/resort/" class="btn_reso" target="_blank"><span>共立リゾート トップ</span></a>
+ <a href="https://renewal.hotespa.net/dormyinn/" class="btn_inn" target="_blank"><span>ドーミーイン トップ</span></a>
+ <a href="/spa/" class="btn_spa"><span>SPA トップ</span></a> </div>
+<div id="inn">
+<!-- <a href=""><span>予約の確認・変更</span></a> -->
+<!-- <a href="/guide/"><span>ご利用ガイド</span></a> -->
+<!--<a href="https://member.kyoritsugroup.com/mypage/update?cid=C02" target="_blank"><span>会員登録情報の確認・変更</span></a> -->
+<!-- <a href="en/"><span>Language　English</span></a>  -->
+</div>
+</li>
+</ul>
+</div><!--nav_in-->
+</div>
+</div>
+

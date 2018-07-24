@@ -1,0 +1,170 @@
+/* dormyinn */
+#tmpl_header_wrapper {
+  background-color: #112750 !important;
+  font-family: "Meiryo","Noto Sans Japanese", sans-serif;
+}
+#tmpl_header_wrapper > .tmpl_header_border {
+  border-bottom: 2px solid #263d66;
+  background-color: #fff;
+  padding: 0 10px;
+}
+#tmpl_header_wrapper > .tmpl_header_border > #nav_list {
+  position: relative;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto; padding: 0 44px 15px 0;
+  background-color: #fff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#tmpl_header_wrapper > .tmpl_header_border > #nav_list > p {
+  font-size: 10px; line-height: 14px; color: #000; 
+  margin: 0; padding: 7px 0 8px 0;
+  font-family: "Meiryo","Noto Sans Japanese", sans-serif;
+}
+#tmpl_header_wrapper > .tmpl_header_border > #nav_list > a > img {
+  width: auto;
+  border: none;
+  vertical-align: top;
+}
+#tmpl_header_wrapper > .tmpl_header_border > #nav_list > #tmpl_utilityOpen {
+  position: absolute;
+  top: 32px; right: 0;
+  width: 34px; height: 26px;
+  overflow: hidden;
+  z-index: 99999;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#tmpl_header_wrapper > .tmpl_header_border > #nav_list > .tmpl_close {
+  background-image: url("/common/img/menu_open.png");
+}
+#tmpl_header_wrapper > .tmpl_header_border > #nav_list > .tmpl_open {
+  background-image: url("/common/img/menu_close.png");
+}
+#tmpl_header_wrapper > #tmpl_util {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: none;
+}
+#tmpl_header_wrapper > #tmpl_util:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+#tmpl_header_wrapper > #tmpl_util > .left, #tmpl_util > .right {
+  width: 50%;
+  margin: 1px 0 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#tmpl_header_wrapper > #tmpl_util > .left {
+  float: left;
+  padding-right: 1px;
+}
+#tmpl_header_wrapper > #tmpl_util > .right {
+  float: left;
+}
+#tmpl_header_wrapper > #tmpl_util > ul {
+  list-style: none;
+  padding: 0;margin: 0;
+}
+#tmpl_header_wrapper > #tmpl_util > ul > li {
+  background-color: #263d66;
+  margin: 0 0 1px 0;padding: 0;
+}
+#tmpl_header_wrapper > #tmpl_util > ul > li:hover {
+  background-color: #2f4a79;
+}
+#tmpl_header_wrapper > #tmpl_util > ul > li > a{
+  font-size: 11px;line-height: 16px;color: #fff;
+  font-family: "Meiryo","Noto Sans Japanese", sans-serif;
+  text-decoration: none;
+  display: block;
+  padding: 19px 25px;
+}
+
+
+
+/* resort */
+
+#tmpl_header_wrapper.resort_header > .tmpl_header_border > #nav_list {
+  padding: 25px 0;
+}
+#tmpl_header_wrapper.resort_header > .tmpl_header_border {
+  border-bottom: 1px solid #dcd3a8;
+}
+#tmpl_header_wrapper.resort_header {
+  background-color: #ede4b7 !important;
+}
+#tmpl_header_wrapper.resort_header > #tmpl_util > ul > li {
+  background-color: #f5edc5;
+}
+#tmpl_header_wrapper.resort_header > #tmpl_util > ul > li > a {
+  color: #444;
+  padding: 22px 21px 20px
+}
+#tmpl_header_wrapper.resort_header  > #tmpl_util > ul > li:hover {
+  background-color: #fff8d5;
+}
+#tmpl_header_wrapper.resort_header > .tmpl_header_border > #nav_list > .tmpl_close {
+  background-image: url("/common/img/resort_menu_open.png");
+}
+#tmpl_header_wrapper.resort_header > .tmpl_header_border > #nav_list > .tmpl_open {
+  background-image: url("/common/img/resort_menu_close.png");
+}
+#tmpl_header_wrapper.resort_header > .tmpl_header_border > #nav_list > #tmpl_utilityOpen {
+  top: 29px;
+}
+
+
+@media screen and (max-width: 640px) {
+  #tmpl_header_wrapper > #tmpl_util > ul > li > a {
+    font-size: 14px;
+  }
+  #tmpl_header_wrapper > .tmpl_header_border > #nav_list > p {
+    display: none;
+  }
+  #tmpl_header_wrapper > .tmpl_header_border {
+    padding: 14px 14px 12px 14px;
+  }
+  #tmpl_header_wrapper > .tmpl_header_border > #nav_list {
+    padding: 0;
+  }
+  #tmpl_header_wrapper > .tmpl_header_border > #nav_list > #tmpl_utilityOpen {
+    top: 9px;
+  }
+  #tmpl_header_wrapper > #tmpl_util > .left,  #tmpl_header_wrapper > #tmpl_util > .right  {
+    float: none;
+    padding-right: 0px;
+  }
+ 
+  #tmpl_header_wrapper > #tmpl_util > .left, #tmpl_util > .right {
+    width: auto;
+  }
+  #tmpl_header_wrapper > #tmpl_util > ul > li{
+    margin: 1px 0 0 0;
+  }
+  #tmpl_header_wrapper > #tmpl_util > ul > li > a{
+    padding: 16px 14px;
+    
+  }
+  #tmpl_header_wrapper {
+    padding-bottom: 1px; 
+  }
+
+
+
+  /* resort SP */
+  #tmpl_header_wrapper.resort_header > .tmpl_header_border > #nav_list {
+    padding: 6px 0;
+  }
+  #tmpl_header_wrapper.resort_header > .tmpl_header_border > #nav_list > #tmpl_utilityOpen {
+  top: 8px;
+}
+}

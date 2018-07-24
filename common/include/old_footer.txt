@@ -1,0 +1,15 @@
+<!-- footer -->
+<div id="footer">
+<div id="pagetop"><a href="#top"><img src="/image_common/footer/ft_pagetop.jpg" alt="ページトップに戻る" width="122" height="17"></a></div>
+<div class="ft_menu">｜<a href="/resort/">共立リゾート</a>｜<a href="/dormyinn/">ドーミーイン</a>｜<a href="/spa/">スパ</a>｜</div>
+<div class="ft_bg">
+<ul>
+<li><a href="http://www.kyoritsugroup.co.jp/privacy/index.html" target="_blank">個人情報保護方針</a></li>
+<li><a href="http://www.kyoritsugroup.co.jp/company/index.html" target="_blank">会社情報</a></li>
+<li><a href="http://www.kyoritsugroup.co.jp/recruit/" target="_blank">採用情報</a></li>
+</ul>
+Copyright 2017 kyoritsugroup.co.jp All rights reserved.<br>
+<a href="http://www.kyoritsugroup.co.jp/" target="_blank"><img src="/image_common/footer/kyoritsugroup_logo.gif" alt="共立メンテナンス" width="150" height="28" border="0"></a><br>
+全国に広がる共立メンテナンスの“共立リゾート”“ドーミーイン”</div>
+</div>
+<!-- /footer -->
